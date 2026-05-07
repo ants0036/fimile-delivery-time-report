@@ -66,22 +66,23 @@ def calculate_warehouse_time(row):
   if pickup_hours < 0:
     return 0
   else: 
-    return pickup_hours
+    return pickup_hours / 24
   
 def calculate_created_to_delivery_time(row):
   created_time = pd.to_datetime(row["created_at"])
   delivered_timestamp = pd.to_datetime(row["latest_router_time"])
   created_to_delivery = delivered_timestamp - created_time
-  return created_to_delivery.total_seconds() / 3600  
+  hours = created_to_delivery.total_seconds() / 3600  
+  return hours / 24
 
 def find_sender_start(row):
   if row["sender_zip_code"] == "":
     return "N/A"
-  if row["sender_zip_code"] in ["91752", "90670", "92324", "92337", "91761", "91789", "92701", "91768"]:
+  if row["sender_zip_code"] in ["91752", "90670", "92324", "92337", "91761", "91789", "92701", "91768", "91766"]:
     return "CA"
   elif row["sender_zip_code"] in ["08817", "08067", "08859", "08810", "08902", "07001", "07064", "07036", "08854"]:
     return "NJ"
-  elif row["sender_zip_code"] == "31308":
+  elif row["sender_zip_code"] in ["31308", "29927"]:
     return "SAV"
   elif row["sender_zip_code"] in ["77423", "77060", "77449"]:
     return "TX"
@@ -99,6 +100,7 @@ def load_zones():
   st.session_state.tx_zones = pd.read_csv('data/tx zones.csv')
   st.session_state.atl_zones = pd.read_csv('data/atl zones.csv')
   st.session_state.il_zones = pd.read_csv('data/il zones.csv')
+  st.session_state.fl_sub = pd.read_csv('data/fl subsections.csv')
 
 # only called after load_zones() is called 
 # optimize later
@@ -114,16 +116,21 @@ def find_zone(row):
   elif start == "SAV":
     match = st.session_state.sav_zones[st.session_state.sav_zones['zipcode'] == receive_zip]
   elif start == "IL":
-    match = st.session_state.il_zones[st.session_state.sav_zones['zipcode'] == receive_zip]
+    match = st.session_state.il_zones[st.session_state.il_zones['zipcode'] == receive_zip]
   elif start == "ATL":
-    match = st.session_state.atl_zones[st.session_state.sav_zones['zipcode'] == receive_zip]
+    match = st.session_state.atl_zones[st.session_state.atl_zones['zipcode'] == receive_zip]
   else:
     return "N/A"
   
   if match.empty:
     return 0 
   else: 
-    return match.iloc[0]["zone"] 
+    # Check if FL, if FL, return sub-area (tampa or miami) instead of
+    if match.iloc[0]["state"] == "FL":
+      area = st.session_state.fl_sub[st.session_state.fl_sub['zipcode'] == receive_zip]
+      return pd.Series([match.iloc[0]["zone"], area.iloc[0]["area"]])
+    else: 
+      return pd.Series([match.iloc[0]["zone"], match.iloc[0]["state"]])
 
 # start and end date picker
 start_date = st.date_input("pick start date")
@@ -145,6 +152,9 @@ if st.button("calculate times & zones"):
   st.session_state.data["created to delivery time"] = st.session_state.data.apply(calculate_created_to_delivery_time, axis = 1)
   st.session_state.data["starting area"] = st.session_state.data.apply(find_sender_start, axis = 1)
   load_zones()
-  st.session_state.data["zone"] = st.session_state.data.apply(find_zone, axis = 1)
-
+  st.session_state.data[["zone", "receive state"]] = st.session_state.data.apply(find_zone, axis = 1)
   st.write(st.session_state.data)
+
+if st.button("calculate avg"):
+  grouped = st.session_state.data.groupby(['starting area', 'receive state']).agg({'warehouse pickup time': 'mean'})
+  st.write(grouped)
