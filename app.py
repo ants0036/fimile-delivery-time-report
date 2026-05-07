@@ -104,9 +104,13 @@ def load_zones():
 
 # only called after load_zones() is called 
 # optimize later
+# finds the zone and the receiver state/area 
 def find_zone(row):
   start = row["starting area"]
-  receive_zip = int(row["receiver_zip_code"][:5])
+  try: 
+    receive_zip = int(row["receiver_zip_code"][:5])
+  except:
+    return pd.Series([0, "N/A"])
   if start == "CA":
     match = st.session_state.ca_zones[st.session_state.ca_zones['zipcode'] == receive_zip]
   elif start == "NJ":
@@ -120,10 +124,10 @@ def find_zone(row):
   elif start == "ATL":
     match = st.session_state.atl_zones[st.session_state.atl_zones['zipcode'] == receive_zip]
   else:
-    return "N/A"
+    return pd.Series([0, "N/A"])
   
   if match.empty:
-    return 0 
+    return pd.Series([0, "N/A"])
   else: 
     # Check if FL, if FL, return sub-area (tampa or miami) instead of
     if match.iloc[0]["state"] == "FL":
@@ -145,16 +149,20 @@ if "data" in st.session_state:
   st.write(st.session_state.data)
 
 if st.button("calculate times & zones"):
+  # filter only delivered packages 
   st.session_state.data = st.session_state.data[st.session_state.data['latest_router_description'] == 'Delivered.']
 
   st.session_state.data["pickup time"] = st.session_state.data.apply(calculate_pickup_time, axis = 1)
-  st.session_state.data["warehouse pickup time"] = st.session_state.data.apply(calculate_warehouse_time, axis = 1)
+  st.session_state.data["pickup time to delivery time"] = st.session_state.data.apply(calculate_warehouse_time, axis = 1)
   st.session_state.data["created to delivery time"] = st.session_state.data.apply(calculate_created_to_delivery_time, axis = 1)
   st.session_state.data["starting area"] = st.session_state.data.apply(find_sender_start, axis = 1)
   load_zones()
   st.session_state.data[["zone", "receive state"]] = st.session_state.data.apply(find_zone, axis = 1)
   st.write(st.session_state.data)
 
-if st.button("calculate avg"):
-  grouped = st.session_state.data.groupby(['starting area', 'receive state']).agg({'warehouse pickup time': 'mean'})
-  st.write(grouped)
+  grouped_areas = st.session_state.data.groupby(['starting area', 'receive state']).agg({'pickup time to delivery time': 'mean', "created to delivery time": 'mean'})
+  grouped_zones = st.session_state.data.groupby(['zone']).agg({'pickup time to delivery time': 'mean', "created to delivery time": 'mean'})
+  st.write("Aggregations by area")
+  st.write(grouped_areas)
+  st.write("Aggregations by zone")
+  st.write(grouped_zones)
