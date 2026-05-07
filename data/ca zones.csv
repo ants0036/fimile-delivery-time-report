@@ -1,0 +1,2409 @@
+zipcode,state,city,zone
+94002,CA,Belmont,4
+94005,CA,Brisbane,4
+94010,CA,Burlingame,4
+94011,CA,Burlingame,4
+94014,CA,Daly City,4
+94015,CA,Daly City,4
+94018,CA,El Granada,4
+94019,CA,Half Moon Bay,4
+94022,CA,Los Altos,4
+94023,CA,Los Altos,4
+94024,CA,Los Altos,4
+94025,CA,Menlo Park,4
+94027,CA,Atherton,4
+94028,CA,Portola Valley,4
+94030,CA,Millbrae,4
+94037,CA,Montara,4
+94038,CA,Moss Beach,4
+94040,CA,Mountain View,4
+94041,CA,Mountain View,4
+94043,CA,Mountain View,4
+94044,CA,Pacifica,4
+94060,CA,Pescadero,4
+94061,CA,Redwood City,4
+94062,CA,Redwood City,4
+94063,CA,Redwood City,4
+94065,CA,Redwood City,4
+94066,CA,San Bruno,4
+94070,CA,San Carlos,4
+94074,CA,San Gregorio,4
+94080,CA,South San Francisco,4
+94085,CA,Sunnyvale,4
+94086,CA,Sunnyvale,4
+94087,CA,Sunnyvale,4
+94088,CA,Sunnyvale,4
+94089,CA,Sunnyvale,4
+94102,CA,San Francisco,4
+94103,CA,San Francisco,4
+94104,CA,San Francisco,4
+94105,CA,San Francisco,4
+94107,CA,San Francisco,4
+94108,CA,San Francisco,4
+94109,CA,San Francisco,4
+94110,CA,San Francisco,4
+94111,CA,San Francisco,4
+94112,CA,San Francisco,4
+94114,CA,San Francisco,4
+94115,CA,San Francisco,4
+94116,CA,San Francisco,4
+94117,CA,San Francisco,4
+94118,CA,San Francisco,4
+94121,CA,San Francisco,4
+94122,CA,San Francisco,4
+94123,CA,San Francisco,4
+94124,CA,San Francisco,4
+94127,CA,San Francisco,4
+94128,CA,San Francisco,4
+94131,CA,San Francisco,4
+94132,CA,San Francisco,4
+94133,CA,San Francisco,4
+94134,CA,San Francisco,4
+94137,CA,San Francisco,4
+94139,CA,San Francisco,4
+94142,CA,San Francisco,4
+94143,CA,San Francisco,4
+94144,CA,San Francisco,4
+94145,CA,San Francisco,4
+94151,CA,San Francisco,4
+94158,CA,San Francisco,4
+94160,CA,San Francisco,4
+94161,CA,San Francisco,4
+94163,CA,San Francisco,4
+94177,CA,San Francisco,4
+94188,CA,San Francisco,4
+94301,CA,Palo Alto,3
+94303,CA,Palo Alto,3
+94304,CA,Palo Alto,3
+94305,CA,Stanford,3
+94306,CA,Palo Alto,3
+94401,CA,San Mateo,4
+94402,CA,San Mateo,4
+94403,CA,San Mateo,4
+94404,CA,San Mateo,4
+94497,CA,San Mateo,4
+94501,CA,Alameda,4
+94502,CA,Alameda,4
+94503,CA,American Canyon,4
+94505,CA,Discovery Bay,4
+94506,CA,Danville,4
+94507,CA,Alamo,4
+94509,CA,Antioch,4
+94510,CA,Benicia,4
+94511,CA,Bethel Island,4
+94512,CA,Birds Landing,4
+94513,CA,Brentwood,4
+94514,CA,Byron,4
+94516,CA,Canyon,4
+94517,CA,Clayton,4
+94518,CA,Concord,4
+94519,CA,Concord,4
+94520,CA,Concord,4
+94521,CA,Concord,4
+94523,CA,Pleasant Hill,4
+94525,CA,Crockett,4
+94526,CA,Danville,4
+94528,CA,Diablo,4
+94529,CA,Concord,4
+94530,CA,El Cerrito,4
+94531,CA,Antioch,4
+94533,CA,Fairfield,4
+94534,CA,Fairfield,4
+94535,CA,Travis Afb,4
+94536,CA,Fremont,4
+94538,CA,Fremont,4
+94539,CA,Fremont,4
+94540,CA,Hayward,4
+94541,CA,Hayward,4
+94542,CA,Hayward,4
+94544,CA,Hayward,4
+94545,CA,Hayward,4
+94546,CA,Castro Valley,4
+94547,CA,Hercules,4
+94548,CA,Knightsen,4
+94549,CA,Lafayette,4
+94550,CA,Livermore,4
+94551,CA,Livermore,4
+94552,CA,Castro Valley,4
+94553,CA,Martinez,4
+94555,CA,Fremont,4
+94556,CA,Moraga,4
+94558,CA,Napa,4
+94559,CA,Napa,4
+94560,CA,Newark,4
+94561,CA,Oakley,4
+94562,CA,Oakville,4
+94563,CA,Orinda,4
+94564,CA,Pinole,4
+94565,CA,Pittsburg,4
+94566,CA,Pleasanton,4
+94568,CA,Dublin,4
+94569,CA,Port Costa,4
+94570,CA,Moraga,4
+94571,CA,Rio Vista,4
+94572,CA,Rodeo,4
+94573,CA,Rutherford,4
+94574,CA,Saint Helena,4
+94577,CA,San Leandro,4
+94578,CA,San Leandro,4
+94579,CA,San Leandro,4
+94580,CA,San Lorenzo,4
+94581,CA,Napa,4
+94582,CA,San Ramon,4
+94583,CA,San Ramon,4
+94585,CA,Suisun City,4
+94586,CA,Sunol,4
+94587,CA,Union City,4
+94588,CA,Pleasanton,4
+94589,CA,Vallejo,4
+94590,CA,Vallejo,4
+94591,CA,Vallejo,4
+94592,CA,Vallejo,4
+94595,CA,Walnut Creek,4
+94596,CA,Walnut Creek,4
+94597,CA,Walnut Creek,4
+94598,CA,Walnut Creek,4
+94599,CA,Yountville,4
+94601,CA,Oakland,4
+94602,CA,Oakland,4
+94603,CA,Oakland,4
+94605,CA,Oakland,4
+94606,CA,Oakland,4
+94607,CA,Oakland,4
+94608,CA,Emeryville,4
+94609,CA,Oakland,4
+94610,CA,Oakland,4
+94611,CA,Oakland,4
+94612,CA,Oakland,4
+94613,CA,Oakland,4
+94615,CA,Oakland,4
+94617,CA,Oakland,4
+94618,CA,Oakland,4
+94619,CA,Oakland,4
+94621,CA,Oakland,4
+94622,CA,Oakland,4
+94649,CA,Oakland,4
+94659,CA,Oakland,4
+94660,CA,Oakland,4
+94666,CA,Oakland,4
+94702,CA,Berkeley,4
+94703,CA,Berkeley,4
+94704,CA,Berkeley,4
+94705,CA,Berkeley,4
+94706,CA,Albany,4
+94707,CA,Berkeley,4
+94708,CA,Berkeley,4
+94709,CA,Berkeley,4
+94710,CA,Berkeley,4
+94720,CA,Berkeley,4
+94801,CA,Richmond,4
+94803,CA,El Sobrante,4
+94804,CA,Richmond,4
+94805,CA,Richmond,4
+94806,CA,San Pablo,4
+94850,CA,Richmond,4
+94901,CA,San Rafael,4
+94903,CA,San Rafael,4
+94904,CA,Greenbrae,4
+94912,CA,San Rafael,4
+94920,CA,Belvedere Tiburon,4
+94924,CA,Bolinas,4
+94925,CA,Corte Madera,4
+94926,CA,Rohnert Park,4
+94928,CA,Rohnert Park,4
+94929,CA,Dillon Beach,4
+94930,CA,Fairfax,4
+94931,CA,Cotati,4
+94933,CA,Forest Knolls,4
+94938,CA,Lagunitas,4
+94939,CA,Larkspur,4
+94940,CA,Marshall,4
+94941,CA,Mill Valley,4
+94942,CA,Mill Valley,4
+94945,CA,Novato,4
+94946,CA,Nicasio,4
+94947,CA,Novato,4
+94949,CA,Novato,4
+94950,CA,Olema,4
+94951,CA,Penngrove,4
+94952,CA,Petaluma,4
+94954,CA,Petaluma,4
+94956,CA,Point Reyes Station,4
+94957,CA,Ross,4
+94960,CA,San Anselmo,4
+94963,CA,San Geronimo,4
+94964,CA,San Quentin,4
+94965,CA,Sausalito,4
+94970,CA,Stinson Beach,4
+94971,CA,Tomales,4
+94972,CA,Valley Ford,4
+94973,CA,Woodacre,4
+94974,CA,San Quentin,4
+94976,CA,Corte Madera,4
+94977,CA,Larkspur,4
+94978,CA,Fairfax,4
+94979,CA,San Anselmo,4
+94998,CA,Novato,4
+94999,CA,Petaluma,4
+95002,CA,Alviso,3
+95006,CA,Boulder Creek,3
+95008,CA,Campbell,3
+95009,CA,Campbell,3
+95014,CA,Cupertino,3
+95015,CA,Cupertino,3
+95026,CA,Holy City,3
+95030,CA,Los Gatos,3
+95032,CA,Los Gatos,3
+95033,CA,Los Gatos,3
+95035,CA,Milpitas,3
+95036,CA,Milpitas,3
+95044,CA,Redwood Estates,3
+95050,CA,Santa Clara,3
+95051,CA,Santa Clara,3
+95053,CA,Santa Clara,3
+95054,CA,Santa Clara,3
+95070,CA,Saratoga,3
+95071,CA,Saratoga,3
+95101,CA,San Jose,3
+95110,CA,San Jose,3
+95111,CA,San Jose,3
+95112,CA,San Jose,3
+95113,CA,San Jose,3
+95116,CA,San Jose,3
+95117,CA,San Jose,3
+95118,CA,San Jose,3
+95119,CA,San Jose,3
+95120,CA,San Jose,3
+95121,CA,San Jose,3
+95122,CA,San Jose,3
+95123,CA,San Jose,3
+95124,CA,San Jose,3
+95125,CA,San Jose,3
+95126,CA,San Jose,3
+95127,CA,San Jose,3
+95128,CA,San Jose,3
+95129,CA,San Jose,3
+95130,CA,San Jose,3
+95131,CA,San Jose,3
+95132,CA,San Jose,3
+95133,CA,San Jose,3
+95134,CA,San Jose,3
+95135,CA,San Jose,3
+95136,CA,San Jose,3
+95138,CA,San Jose,3
+95140,CA,Mount Hamilton,3
+95148,CA,San Jose,3
+95190,CA,San Jose,3
+95191,CA,San Jose,3
+95192,CA,San Jose,3
+95193,CA,San Jose,3
+95194,CA,San Jose,3
+95196,CA,San Jose,3
+95416,CA,Boyes Hot Springs,4
+95431,CA,Eldridge,4
+95433,CA,El Verano,4
+95442,CA,Glen Ellen,4
+95452,CA,Kenwood,4
+95473,CA,Sebastopol,4
+95476,CA,Sonoma,4
+95487,CA,Vineburg,4
+95020,CA,Gilroy,3
+95037,CA,Morgan Hill,3
+95076,CA,Watsonville,3
+77002,TX,Houston,6
+77003,TX,Houston,6
+77004,TX,Houston,6
+77005,TX,Houston,6
+77006,TX,Houston,6
+77007,TX,Houston,6
+77008,TX,Houston,6
+77009,TX,Houston,6
+77010,TX,Houston,6
+77011,TX,Houston,6
+77012,TX,Houston,6
+77013,TX,Houston,6
+77014,TX,Houston,6
+77015,TX,Houston,6
+77016,TX,Houston,6
+77017,TX,Houston,6
+77018,TX,Houston,6
+77019,TX,Houston,6
+77020,TX,Houston,6
+77021,TX,Houston,6
+77022,TX,Houston,6
+77023,TX,Houston,6
+77024,TX,Houston,6
+77025,TX,Houston,6
+77026,TX,Houston,6
+77027,TX,Houston,6
+77028,TX,Houston,6
+77029,TX,Houston,6
+77030,TX,Houston,6
+77031,TX,Houston,6
+77032,TX,Houston,6
+77033,TX,Houston,6
+77034,TX,Houston,6
+77035,TX,Houston,6
+77036,TX,Houston,6
+77037,TX,Houston,6
+77038,TX,Houston,6
+77039,TX,Houston,6
+77040,TX,Houston,6
+77041,TX,Houston,6
+77042,TX,Houston,6
+77043,TX,Houston,6
+77044,TX,Houston,6
+77045,TX,Houston,6
+77046,TX,Houston,6
+77047,TX,Houston,6
+77048,TX,Houston,6
+77049,TX,Houston,6
+77050,TX,Houston,6
+77051,TX,Houston,6
+77053,TX,Houston,6
+77054,TX,Houston,6
+77055,TX,Houston,6
+77056,TX,Houston,6
+77057,TX,Houston,6
+77058,TX,Houston,6
+77059,TX,Houston,6
+77060,TX,Houston,6
+77061,TX,Houston,6
+77062,TX,Houston,6
+77063,TX,Houston,6
+77064,TX,Houston,6
+77065,TX,Houston,6
+77066,TX,Houston,6
+77067,TX,Houston,6
+77068,TX,Houston,6
+77069,TX,Houston,6
+77070,TX,Houston,6
+77071,TX,Houston,6
+77072,TX,Houston,6
+77073,TX,Houston,6
+77074,TX,Houston,6
+77075,TX,Houston,6
+77076,TX,Houston,6
+77077,TX,Houston,6
+77078,TX,Houston,6
+77079,TX,Houston,6
+77080,TX,Houston,6
+77081,TX,Houston,6
+77082,TX,Houston,6
+77083,TX,Houston,6
+77084,TX,Houston,6
+77085,TX,Houston,6
+77086,TX,Houston,6
+77087,TX,Houston,6
+77088,TX,Houston,6
+77089,TX,Houston,6
+77090,TX,Houston,6
+77091,TX,Houston,6
+77092,TX,Houston,6
+77093,TX,Houston,6
+77094,TX,Houston,6
+77095,TX,Houston,6
+77096,TX,Houston,6
+77098,TX,Houston,6
+77099,TX,Houston,6
+77201,TX,Houston,6
+77301,TX,Conroe,6
+77302,TX,Conroe,6
+77304,TX,Conroe,6
+77306,TX,Conroe,6
+77315,TX,North Houston,6
+77316,TX,Montgomery,6
+77336,TX,Huffman,6
+77338,TX,Humble,6
+77339,TX,Kingwood,6
+77345,TX,Kingwood,6
+77346,TX,Humble,6
+77354,TX,Magnolia,6
+77357,TX,New Caney,6
+77365,TX,Porter,6
+77372,TX,Splendora,6
+77373,TX,Spring,6
+77375,TX,Tomball,6
+77377,TX,Tomball,6
+77379,TX,Spring,6
+77380,TX,Spring,6
+77381,TX,Spring,6
+77382,TX,Spring,6
+77385,TX,Conroe,6
+77386,TX,Spring,6
+77388,TX,Spring,6
+77389,TX,Spring,6
+77396,TX,Humble,6
+77401,TX,Bellaire,6
+77406,TX,Richmond,6
+77407,TX,Richmond,6
+77423,TX,Brookshire,6
+77429,TX,Cypress,6
+77433,TX,Cypress,6
+77441,TX,Fulshear,6
+77447,TX,Hockley,6
+77449,TX,Katy,6
+77450,TX,Katy,6
+77459,TX,Missouri City,6
+77469,TX,Richmond,6
+77471,TX,Rosenberg,6
+77477,TX,Stafford,6
+77478,TX,Sugar Land,6
+77479,TX,Sugar Land,6
+77489,TX,Missouri City,6
+77493,TX,Katy,6
+77494,TX,Katy,6
+77498,TX,Sugar Land,6
+77502,TX,Pasadena,6
+77503,TX,Pasadena,6
+77504,TX,Pasadena,6
+77505,TX,Pasadena,6
+77506,TX,Pasadena,6
+77507,TX,Pasadena,6
+77510,TX,Santa Fe,6
+77511,TX,Alvin,6
+77517,TX,Santa Fe,6
+77518,TX,Bacliff,6
+77520,TX,Baytown,6
+77521,TX,Baytown,6
+77523,TX,Baytown,6
+77530,TX,Channelview,6
+77532,TX,Crosby,6
+77536,TX,Deer Park,6
+77539,TX,Dickinson,6
+77545,TX,Fresno,6
+77546,TX,Friendswood,6
+77547,TX,Galena Park,6
+77562,TX,Highlands,6
+77563,TX,Hitchcock,6
+77565,TX,Kemah,6
+77568,TX,La Marque,6
+77571,TX,La Porte,6
+77573,TX,League City,6
+77578,TX,Manvel,6
+77581,TX,Pearland,6
+77583,TX,Rosharon,6
+77584,TX,Pearland,6
+77586,TX,Seabrook,6
+77587,TX,South Houston,6
+77590,TX,Texas City,6
+77591,TX,Texas City,6
+77598,TX,Webster,6
+89002,NV,Henderson,3
+89004,NV,Blue Diamond,3
+89005,NV,Boulder City,3
+89011,NV,Henderson,3
+89012,NV,Henderson,3
+89014,NV,Henderson,3
+89015,NV,Henderson,3
+89030,NV,North Las Vegas,3
+89031,NV,North Las Vegas,3
+89032,NV,North Las Vegas,3
+89044,NV,Henderson,3
+89052,NV,Henderson,3
+89054,NV,Sloan,3
+89074,NV,Henderson,3
+89081,NV,North Las Vegas,3
+89084,NV,North Las Vegas,3
+89085,NV,North Las Vegas,3
+89086,NV,North Las Vegas,3
+89101,NV,Las Vegas,3
+89102,NV,Las Vegas,3
+89103,NV,Las Vegas,3
+89104,NV,Las Vegas,3
+89106,NV,Las Vegas,3
+89107,NV,Las Vegas,3
+89108,NV,Las Vegas,3
+89109,NV,Las Vegas,3
+89110,NV,Las Vegas,3
+89113,NV,Las Vegas,3
+89115,NV,Las Vegas,3
+89117,NV,Las Vegas,3
+89118,NV,Las Vegas,3
+89119,NV,Las Vegas,3
+89120,NV,Las Vegas,3
+89121,NV,Las Vegas,3
+89122,NV,Las Vegas,3
+89123,NV,Las Vegas,3
+89128,NV,Las Vegas,3
+89129,NV,Las Vegas,3
+89130,NV,Las Vegas,3
+89131,NV,Las Vegas,3
+89134,NV,Las Vegas,3
+89135,NV,Las Vegas,3
+89138,NV,Las Vegas,3
+89139,NV,Las Vegas,3
+89141,NV,Las Vegas,3
+89142,NV,Las Vegas,3
+89143,NV,Las Vegas,3
+89144,NV,Las Vegas,3
+89145,NV,Las Vegas,3
+89146,NV,Las Vegas,3
+89147,NV,Las Vegas,3
+89148,NV,Las Vegas,3
+89149,NV,Las Vegas,3
+89156,NV,Las Vegas,3
+89158,NV,Las Vegas,3
+89166,NV,Las Vegas,3
+89169,NV,Las Vegas,3
+89178,NV,Las Vegas,3
+89183,NV,Las Vegas,3
+89191,NV,Nellis Afb,3
+85003,AZ,Phoenix,4
+85004,AZ,Phoenix,4
+85006,AZ,Phoenix,4
+85007,AZ,Phoenix,4
+85008,AZ,Phoenix,4
+85009,AZ,Phoenix,4
+85012,AZ,Phoenix,4
+85013,AZ,Phoenix,4
+85014,AZ,Phoenix,4
+85015,AZ,Phoenix,4
+85016,AZ,Phoenix,4
+85017,AZ,Phoenix,4
+85018,AZ,Phoenix,4
+85019,AZ,Phoenix,4
+85020,AZ,Phoenix,4
+85021,AZ,Phoenix,4
+85022,AZ,Phoenix,4
+85023,AZ,Phoenix,4
+85024,AZ,Phoenix,4
+85026,AZ,Phoenix,4
+85027,AZ,Phoenix,4
+85028,AZ,Phoenix,4
+85029,AZ,Phoenix,4
+85031,AZ,Phoenix,4
+85032,AZ,Phoenix,4
+85033,AZ,Phoenix,4
+85034,AZ,Phoenix,4
+85035,AZ,Phoenix,4
+85037,AZ,Phoenix,4
+85039,AZ,Phoenix,4
+85040,AZ,Phoenix,4
+85041,AZ,Phoenix,4
+85042,AZ,Phoenix,4
+85043,AZ,Phoenix,4
+85044,AZ,Phoenix,4
+85045,AZ,Phoenix,4
+85048,AZ,Phoenix,4
+85050,AZ,Phoenix,4
+85051,AZ,Phoenix,4
+85053,AZ,Phoenix,4
+85054,AZ,Phoenix,4
+85065,AZ,Phoenix,4
+85073,AZ,Phoenix,4
+85083,AZ,Phoenix,4
+85085,AZ,Phoenix,4
+85086,AZ,Phoenix,4
+85087,AZ,New River,4
+85119,AZ,Apache Junction,4
+85120,AZ,Apache Junction,4
+85122,AZ,Casa Grande,4
+85138,AZ,Maricopa,4
+85139,AZ,Maricopa,4
+85140,AZ,San Tan Valley,4
+85142,AZ,Queen Creek,4
+85143,AZ,San Tan Valley,4
+85172,AZ,Stanfield,4
+85194,AZ,Casa Grande,4
+85201,AZ,Mesa,4
+85202,AZ,Mesa,4
+85203,AZ,Mesa,4
+85204,AZ,Mesa,4
+85205,AZ,Mesa,4
+85206,AZ,Mesa,4
+85207,AZ,Mesa,4
+85208,AZ,Mesa,4
+85209,AZ,Mesa,4
+85210,AZ,Mesa,4
+85212,AZ,Mesa,4
+85213,AZ,Mesa,4
+85215,AZ,Mesa,4
+85224,AZ,Chandler,4
+85225,AZ,Chandler,4
+85226,AZ,Chandler,4
+85233,AZ,Gilbert,4
+85234,AZ,Gilbert,4
+85248,AZ,Chandler,4
+85249,AZ,Chandler,4
+85250,AZ,Scottsdale,4
+85251,AZ,Scottsdale,4
+85253,AZ,Paradise Valley,4
+85254,AZ,Scottsdale,4
+85255,AZ,Scottsdale,4
+85256,AZ,Scottsdale,4
+85257,AZ,Scottsdale,4
+85258,AZ,Scottsdale,4
+85259,AZ,Scottsdale,4
+85260,AZ,Scottsdale,4
+85262,AZ,Scottsdale,4
+85263,AZ,Rio Verde,4
+85264,AZ,Fort Mcdowell,4
+85266,AZ,Scottsdale,4
+85268,AZ,Fountain Hills,4
+85281,AZ,Tempe,4
+85282,AZ,Tempe,4
+85283,AZ,Tempe,4
+85284,AZ,Tempe,4
+85286,AZ,Chandler,4
+85288,AZ,Tempe,4
+85295,AZ,Gilbert,4
+85296,AZ,Gilbert,4
+85297,AZ,Gilbert,4
+85298,AZ,Gilbert,4
+85301,AZ,Glendale,4
+85302,AZ,Glendale,4
+85303,AZ,Glendale,4
+85304,AZ,Glendale,4
+85305,AZ,Glendale,4
+85306,AZ,Glendale,4
+85307,AZ,Glendale,4
+85308,AZ,Glendale,4
+85310,AZ,Glendale,4
+85322,AZ,Arlington,4
+85323,AZ,Avondale,4
+85324,AZ,Black Canyon City,4
+85326,AZ,Buckeye,4
+85331,AZ,Cave Creek,4
+85335,AZ,El Mirage,4
+85338,AZ,Goodyear,4
+85339,AZ,Laveen,4
+85340,AZ,Litchfield Park,4
+85342,AZ,Morristown,4
+85345,AZ,Peoria,4
+85351,AZ,Sun City,4
+85353,AZ,Tolleson,4
+85355,AZ,Waddell,4
+85361,AZ,Wittmann,4
+85363,AZ,Youngtown,4
+85373,AZ,Sun City,4
+85374,AZ,Surprise,4
+85375,AZ,Sun City West,4
+85377,AZ,Carefree,4
+85378,AZ,Surprise,4
+85379,AZ,Surprise,4
+85381,AZ,Peoria,4
+85382,AZ,Peoria,4
+85383,AZ,Peoria,4
+85387,AZ,Surprise,4
+85388,AZ,Surprise,4
+85392,AZ,Avondale,4
+85395,AZ,Goodyear,4
+85396,AZ,Buckeye,4
+6807,CT,Cos Cob,8
+6830,CT,Greenwich,8
+6831,CT,Greenwich,8
+6870,CT,Old Greenwich,8
+6878,CT,Riverside,8
+6902,CT,Stamford,8
+7001,NJ,Avenel,8
+7002,NJ,Bayonne,8
+7003,NJ,Bloomfield,8
+7004,NJ,Fairfield,8
+7006,NJ,Caldwell,8
+7008,NJ,Carteret,8
+7009,NJ,Cedar Grove,8
+7010,NJ,Cliffside Park,8
+7011,NJ,Clifton,8
+7012,NJ,Clifton,8
+7013,NJ,Clifton,8
+7014,NJ,Clifton,8
+7016,NJ,Cranford,8
+7017,NJ,East Orange,8
+7018,NJ,East Orange,8
+7020,NJ,Edgewater,8
+7021,NJ,Essex Fells,8
+7022,NJ,Fairview,8
+7023,NJ,Fanwood,8
+7024,NJ,Fort Lee,8
+7026,NJ,Garfield,8
+7027,NJ,Garwood,8
+7028,NJ,Glen Ridge,8
+7029,NJ,Harrison,8
+7030,NJ,Hoboken,8
+7031,NJ,North Arlington,8
+7032,NJ,Kearny,8
+7033,NJ,Kenilworth,8
+7034,NJ,Lake Hiawatha,8
+7035,NJ,Lincoln Park,8
+7036,NJ,Linden,8
+7039,NJ,Livingston,8
+7040,NJ,Maplewood,8
+7041,NJ,Millburn,8
+7042,NJ,Montclair,8
+7043,NJ,Montclair,8
+7044,NJ,Verona,8
+7045,NJ,Montville,8
+7047,NJ,North Bergen,8
+7050,NJ,Orange,8
+7052,NJ,West Orange,8
+7054,NJ,Parsippany,8
+7055,NJ,Passaic,8
+7057,NJ,Wallington,8
+7058,NJ,Pine Brook,8
+7059,NJ,Warren,8
+7060,NJ,Plainfield,8
+7062,NJ,Plainfield,8
+7063,NJ,Plainfield,8
+7064,NJ,Port Reading,8
+7065,NJ,Rahway,8
+7066,NJ,Clark,8
+7067,NJ,Colonia,8
+7068,NJ,Roseland,8
+7069,NJ,Watchung,8
+7070,NJ,Rutherford,8
+7071,NJ,Lyndhurst,8
+7072,NJ,Carlstadt,8
+7073,NJ,East Rutherford,8
+7074,NJ,Moonachie,8
+7075,NJ,Wood Ridge,8
+7076,NJ,Scotch Plains,8
+7077,NJ,Sewaren,8
+7078,NJ,Short Hills,8
+7079,NJ,South Orange,8
+7080,NJ,South Plainfield,8
+7081,NJ,Springfield,8
+7082,NJ,Towaco,8
+7083,NJ,Union,8
+7086,NJ,Weehawken,8
+7087,NJ,Union City,8
+7088,NJ,Vauxhall,8
+7090,NJ,Westfield,8
+7092,NJ,Mountainside,8
+7093,NJ,West New York,8
+7094,NJ,Secaucus,8
+7095,NJ,Woodbridge,8
+7102,NJ,Newark,8
+7103,NJ,Newark,8
+7104,NJ,Newark,8
+7105,NJ,Newark,8
+7106,NJ,Newark,8
+7107,NJ,Newark,8
+7108,NJ,Newark,8
+7109,NJ,Belleville,8
+7110,NJ,Nutley,8
+7111,NJ,Irvington,8
+7112,NJ,Newark,8
+7114,NJ,Newark,8
+7201,NJ,Elizabeth,8
+7202,NJ,Elizabeth,8
+7203,NJ,Roselle,8
+7204,NJ,Roselle Park,8
+7205,NJ,Hillside,8
+7206,NJ,Elizabethport,8
+7208,NJ,Elizabeth,8
+7302,NJ,Jersey City,8
+7304,NJ,Jersey City,8
+7305,NJ,Jersey City,8
+7306,NJ,Jersey City,8
+7307,NJ,Jersey City,8
+7310,NJ,Jersey City,8
+7311,NJ,Jersey City,8
+7401,NJ,Allendale,8
+7407,NJ,Elmwood Park,8
+7410,NJ,Fair Lawn,8
+7417,NJ,Franklin Lakes,8
+7423,NJ,Ho Ho Kus,8
+7424,NJ,Little Falls,8
+7430,NJ,Mahwah,8
+7432,NJ,Midland Park,8
+7436,NJ,Oakland,8
+7440,NJ,Pequannock,8
+7442,NJ,Pompton Lakes,8
+7444,NJ,Pompton Plains,8
+7446,NJ,Ramsey,8
+7450,NJ,Ridgewood,8
+7452,NJ,Glen Rock,8
+7458,NJ,Saddle River,8
+7463,NJ,Waldwick,8
+7470,NJ,Wayne,8
+7481,NJ,Wyckoff,8
+7501,NJ,Paterson,8
+7502,NJ,Paterson,8
+7503,NJ,Paterson,8
+7504,NJ,Paterson,8
+7505,NJ,Paterson,8
+7506,NJ,Hawthorne,8
+7508,NJ,Haledon,8
+7512,NJ,Totowa,8
+7513,NJ,Paterson,8
+7514,NJ,Paterson,8
+7522,NJ,Paterson,8
+7524,NJ,Paterson,8
+7601,NJ,Hackensack,8
+7603,NJ,Bogota,8
+7604,NJ,Hasbrouck Heights,8
+7605,NJ,Leonia,8
+7606,NJ,South Hackensack,8
+7607,NJ,Maywood,8
+7608,NJ,Teterboro,8
+7620,NJ,Alpine,8
+7621,NJ,Bergenfield,8
+7624,NJ,Closter,8
+7626,NJ,Cresskill,8
+7627,NJ,Demarest,8
+7628,NJ,Dumont,8
+7630,NJ,Emerson,8
+7631,NJ,Englewood,8
+7632,NJ,Englewood Cliffs,8
+7640,NJ,Harrington Park,8
+7641,NJ,Haworth,8
+7642,NJ,Hillsdale,8
+7643,NJ,Little Ferry,8
+7644,NJ,Lodi,8
+7645,NJ,Montvale,8
+7646,NJ,New Milford,8
+7647,NJ,Northvale,8
+7648,NJ,Norwood,8
+7649,NJ,Oradell,8
+7650,NJ,Palisades Park,8
+7652,NJ,Paramus,8
+7656,NJ,Park Ridge,8
+7657,NJ,Ridgefield,8
+7660,NJ,Ridgefield Park,8
+7661,NJ,River Edge,8
+7662,NJ,Rochelle Park,8
+7663,NJ,Saddle Brook,8
+7666,NJ,Teaneck,8
+7670,NJ,Tenafly,8
+7675,NJ,Westwood,8
+7676,NJ,Township Of Washington,8
+7677,NJ,Woodcliff Lake,8
+7701,NJ,Red Bank,8
+7702,NJ,Shrewsbury,8
+7703,NJ,Fort Monmouth,8
+7704,NJ,Fair Haven,8
+7711,NJ,Allenhurst,8
+7712,NJ,Asbury Park,8
+7716,NJ,Atlantic Highlands,8
+7717,NJ,Avon By The Sea,8
+7718,NJ,Belford,8
+7719,NJ,Belmar,8
+7720,NJ,Bradley Beach,8
+7721,NJ,Cliffwood,8
+7722,NJ,Colts Neck,8
+7723,NJ,Deal,8
+7724,NJ,Eatontown,8
+7726,NJ,Englishtown,8
+7727,NJ,Farmingdale,8
+7728,NJ,Freehold,8
+7730,NJ,Hazlet,8
+7731,NJ,Howell,8
+7732,NJ,Highlands,8
+7733,NJ,Holmdel,8
+7734,NJ,Keansburg,8
+7735,NJ,Keyport,8
+7737,NJ,Leonardo,8
+7738,NJ,Lincroft,8
+7739,NJ,Little Silver,8
+7740,NJ,Long Branch,8
+7746,NJ,Marlboro,8
+7747,NJ,Matawan,8
+7748,NJ,Middletown,8
+7750,NJ,Monmouth Beach,8
+7751,NJ,Morganville,8
+7753,NJ,Neptune,8
+7755,NJ,Oakhurst,8
+7756,NJ,Ocean Grove,8
+7757,NJ,Oceanport,8
+7758,NJ,Port Monmouth,8
+7760,NJ,Rumson,8
+7762,NJ,Spring Lake,8
+7764,NJ,West Long Branch,8
+7901,NJ,Summit,8
+7920,NJ,Basking Ridge,8
+7921,NJ,Bedminster,8
+7922,NJ,Berkeley Heights,8
+7924,NJ,Bernardsville,8
+7927,NJ,Cedar Knolls,8
+7928,NJ,Chatham,8
+7931,NJ,Far Hills,8
+7932,NJ,Florham Park,8
+7933,NJ,Gillette,8
+7934,NJ,Gladstone,8
+7935,NJ,Green Village,8
+7936,NJ,East Hanover,8
+7940,NJ,Madison,8
+7945,NJ,Mendham,8
+7946,NJ,Millington,8
+7950,NJ,Morris Plains,8
+7960,NJ,Morristown,8
+7974,NJ,New Providence,8
+7976,NJ,New Vernon,8
+7980,NJ,Stirling,8
+7981,NJ,Whippany,8
+8002,NJ,Cherry Hill,8
+8003,NJ,Cherry Hill,8
+8004,NJ,Atco,8
+8007,NJ,Barrington,8
+8009,NJ,Berlin,8
+8010,NJ,Beverly,8
+8012,NJ,Blackwood,8
+8014,NJ,Bridgeport,8
+8015,NJ,Browns Mills,8
+8016,NJ,Burlington,8
+8020,NJ,Clarksboro,8
+8021,NJ,Clementon,8
+8022,NJ,Columbus,8
+8026,NJ,Gibbsboro,8
+8027,NJ,Gibbstown,8
+8028,NJ,Glassboro,8
+8029,NJ,Glendora,8
+8030,NJ,Gloucester City,8
+8031,NJ,Bellmawr,8
+8032,NJ,Grenloch,8
+8033,NJ,Haddonfield,8
+8034,NJ,Cherry Hill,8
+8035,NJ,Haddon Heights,8
+8036,NJ,Hainesport,8
+8041,NJ,Jobstown,8
+8043,NJ,Voorhees,8
+8045,NJ,Lawnside,8
+8046,NJ,Willingboro,8
+8048,NJ,Lumberton,8
+8049,NJ,Magnolia,8
+8051,NJ,Mantua,8
+8052,NJ,Maple Shade,8
+8053,NJ,Marlton,8
+8054,NJ,Mount Laurel,8
+8055,NJ,Medford,8
+8056,NJ,Mickleton,8
+8057,NJ,Moorestown,8
+8059,NJ,Mount Ephraim,8
+8060,NJ,Mount Holly,8
+8061,NJ,Mount Royal,8
+8062,NJ,Mullica Hill,8
+8063,NJ,National Park,8
+8065,NJ,Palmyra,8
+8066,NJ,Paulsboro,8
+8067,NJ,Pedricktown,8
+8068,NJ,Pemberton,8
+8069,NJ,Penns Grove,8
+8070,NJ,Pennsville,8
+8071,NJ,Pitman,8
+8075,NJ,Riverside,8
+8077,NJ,Riverton,8
+8078,NJ,Runnemede,8
+8079,NJ,Salem,8
+8080,NJ,Sewell,8
+8081,NJ,Sicklerville,8
+8083,NJ,Somerdale,8
+8084,NJ,Stratford,8
+8085,NJ,Swedesboro,8
+8086,NJ,Thorofare,8
+8088,NJ,Vincentown,8
+8089,NJ,Waterford Works,8
+8090,NJ,Wenonah,8
+8091,NJ,West Berlin,8
+8093,NJ,Westville,8
+8094,NJ,Williamstown,8
+8096,NJ,West Deptford,8
+8097,NJ,Woodbury Heights,8
+8098,NJ,Woodstown,8
+8102,NJ,Camden,8
+8103,NJ,Camden,8
+8104,NJ,Camden,8
+8105,NJ,Camden,8
+8106,NJ,Audubon,8
+8107,NJ,Oaklyn,8
+8108,NJ,Collingswood,8
+8109,NJ,Merchantville,8
+8110,NJ,Pennsauken,8
+8312,NJ,Clayton,8
+8318,NJ,Elmer,8
+8322,NJ,Franklinville,8
+8328,NJ,Malaga,8
+8343,NJ,Monroeville,8
+8344,NJ,Newfield,8
+8501,NJ,Allentown,8
+8502,NJ,Belle Mead,8
+8505,NJ,Bordentown,8
+8510,NJ,Millstone Township,8
+8511,NJ,Cookstown,8
+8512,NJ,Cranbury,8
+8514,NJ,Cream Ridge,8
+8515,NJ,Chesterfield,8
+8518,NJ,Florence,8
+8520,NJ,Hightstown,8
+8525,NJ,Hopewell,8
+8527,NJ,Jackson,8
+8528,NJ,Kingston,8
+8530,NJ,Lambertville,8
+8533,NJ,New Egypt,8
+8534,NJ,Pennington,8
+8535,NJ,Millstone Township,8
+8536,NJ,Plainsboro,8
+8540,NJ,Princeton,8
+8542,NJ,Princeton,8
+8544,NJ,Princeton,8
+8550,NJ,Princeton Junction,8
+8551,NJ,Ringoes,8
+8553,NJ,Rocky Hill,8
+8554,NJ,Roebling,8
+8558,NJ,Skillman,8
+8559,NJ,Stockton,8
+8560,NJ,Titusville,8
+8562,NJ,Wrightstown,8
+8608,NJ,Trenton,8
+8609,NJ,Trenton,8
+8610,NJ,Trenton,8
+8611,NJ,Trenton,8
+8618,NJ,Trenton,8
+8619,NJ,Trenton,8
+8620,NJ,Trenton,8
+8628,NJ,Trenton,8
+8629,NJ,Trenton,8
+8638,NJ,Trenton,8
+8640,NJ,Fort Dix,8
+8641,NJ,Trenton,8
+8648,NJ,Lawrence Township,8
+8690,NJ,Trenton,8
+8691,NJ,Trenton,8
+8701,NJ,Lakewood,8
+8721,NJ,Bayville,8
+8722,NJ,Beachwood,8
+8723,NJ,Brick,8
+8724,NJ,Brick,8
+8730,NJ,Brielle,8
+8731,NJ,Forked River,8
+8733,NJ,Lakehurst,8
+8734,NJ,Lanoka Harbor,8
+8736,NJ,Manasquan,8
+8741,NJ,Pine Beach,8
+8742,NJ,Point Pleasant Beach,8
+8750,NJ,Sea Girt,8
+8753,NJ,Toms River,8
+8755,NJ,Toms River,8
+8757,NJ,Toms River,8
+8759,NJ,Manchester Township,8
+8805,NJ,Bound Brook,8
+8807,NJ,Bridgewater,8
+8810,NJ,Dayton,8
+8812,NJ,Dunellen,8
+8816,NJ,East Brunswick,8
+8817,NJ,Edison,8
+8820,NJ,Edison,8
+8822,NJ,Flemington,8
+8823,NJ,Franklin Park,8
+8824,NJ,Kendall Park,8
+8828,NJ,Helmetta,8
+8830,NJ,Iselin,8
+8831,NJ,Monroe Township,8
+8832,NJ,Keasbey,8
+8833,NJ,Lebanon,8
+8835,NJ,Manville,8
+8836,NJ,Martinsville,8
+8837,NJ,Edison,8
+8840,NJ,Metuchen,8
+8844,NJ,Hillsborough,8
+8846,NJ,Middlesex,8
+8850,NJ,Milltown,8
+8852,NJ,Monmouth Junction,8
+8853,NJ,Neshanic Station,8
+8854,NJ,Piscataway,8
+8857,NJ,Old Bridge,8
+8859,NJ,Parlin,8
+8861,NJ,Perth Amboy,8
+8863,NJ,Fords,8
+8869,NJ,Raritan,8
+8872,NJ,Sayreville,8
+8873,NJ,Somerset,8
+8876,NJ,Somerville,8
+8879,NJ,South Amboy,8
+8880,NJ,South Bound Brook,8
+8882,NJ,South River,8
+8884,NJ,Spotswood,8
+8887,NJ,Three Bridges,8
+8889,NJ,Whitehouse Station,8
+8901,NJ,New Brunswick,8
+8902,NJ,North Brunswick,8
+8904,NJ,Highland Park,8
+10001,NY,New York,8
+10002,NY,New York,8
+10003,NY,New York,8
+10004,NY,New York,8
+10005,NY,New York,8
+10006,NY,New York,8
+10007,NY,New York,8
+10009,NY,New York,8
+10010,NY,New York,8
+10011,NY,New York,8
+10012,NY,New York,8
+10013,NY,New York,8
+10014,NY,New York,8
+10016,NY,New York,8
+10017,NY,New York,8
+10018,NY,New York,8
+10019,NY,New York,8
+10020,NY,New York,8
+10021,NY,New York,8
+10022,NY,New York,8
+10023,NY,New York,8
+10024,NY,New York,8
+10025,NY,New York,8
+10026,NY,New York,8
+10027,NY,New York,8
+10028,NY,New York,8
+10029,NY,New York,8
+10030,NY,New York,8
+10031,NY,New York,8
+10032,NY,New York,8
+10033,NY,New York,8
+10034,NY,New York,8
+10035,NY,New York,8
+10036,NY,New York,8
+10037,NY,New York,8
+10038,NY,New York,8
+10039,NY,New York,8
+10040,NY,New York,8
+10065,NY,New York,8
+10075,NY,New York,8
+10103,NY,New York,8
+10110,NY,New York,8
+10111,NY,New York,8
+10112,NY,New York,8
+10119,NY,New York,8
+10128,NY,New York,8
+10152,NY,New York,8
+10153,NY,New York,8
+10154,NY,New York,8
+10165,NY,New York,8
+10167,NY,New York,8
+10168,NY,New York,8
+10169,NY,New York,8
+10170,NY,New York,8
+10171,NY,New York,8
+10172,NY,New York,8
+10173,NY,New York,8
+10174,NY,New York,8
+10177,NY,New York,8
+10199,NY,New York,8
+10271,NY,New York,8
+10279,NY,New York,8
+10280,NY,New York,8
+10282,NY,New York,8
+10301,NY,Staten Island,8
+10302,NY,Staten Island,8
+10303,NY,Staten Island,8
+10304,NY,Staten Island,8
+10305,NY,Staten Island,8
+10306,NY,Staten Island,8
+10307,NY,Staten Island,8
+10308,NY,Staten Island,8
+10309,NY,Staten Island,8
+10310,NY,Staten Island,8
+10311,NY,Staten Island,8
+10312,NY,Staten Island,8
+10314,NY,Staten Island,8
+10451,NY,Bronx,8
+10452,NY,Bronx,8
+10453,NY,Bronx,8
+10454,NY,Bronx,8
+10455,NY,Bronx,8
+10456,NY,Bronx,8
+10457,NY,Bronx,8
+10458,NY,Bronx,8
+10459,NY,Bronx,8
+10460,NY,Bronx,8
+10461,NY,Bronx,8
+10462,NY,Bronx,8
+10463,NY,Bronx,8
+10464,NY,Bronx,8
+10465,NY,Bronx,8
+10466,NY,Bronx,8
+10467,NY,Bronx,8
+10468,NY,Bronx,8
+10469,NY,Bronx,8
+10470,NY,Bronx,8
+10471,NY,Bronx,8
+10472,NY,Bronx,8
+10473,NY,Bronx,8
+10474,NY,Bronx,8
+10475,NY,Bronx,8
+10502,NY,Ardsley,8
+10522,NY,Dobbs Ferry,8
+10523,NY,Elmsford,8
+10528,NY,Harrison,8
+10530,NY,Hartsdale,8
+10533,NY,Irvington,8
+10538,NY,Larchmont,8
+10543,NY,Mamaroneck,8
+10550,NY,Mount Vernon,8
+10552,NY,Mount Vernon,8
+10553,NY,Mount Vernon,8
+10573,NY,Port Chester,8
+10577,NY,Purchase,8
+10580,NY,Rye,8
+10583,NY,Scarsdale,8
+10601,NY,White Plains,8
+10603,NY,White Plains,8
+10604,NY,West Harrison,8
+10605,NY,White Plains,8
+10606,NY,White Plains,8
+10607,NY,White Plains,8
+10701,NY,Yonkers,8
+10703,NY,Yonkers,8
+10704,NY,Yonkers,8
+10705,NY,Yonkers,8
+10706,NY,Hastings On Hudson,8
+10707,NY,Tuckahoe,8
+10708,NY,Bronxville,8
+10709,NY,Eastchester,8
+10710,NY,Yonkers,8
+10801,NY,New Rochelle,8
+10803,NY,Pelham,8
+10804,NY,New Rochelle,8
+10805,NY,New Rochelle,8
+10913,NY,Blauvelt,8
+10920,NY,Congers,8
+10952,NY,Monsey,8
+10954,NY,Nanuet,8
+10956,NY,New City,8
+10960,NY,Nyack,8
+10962,NY,Orangeburg,8
+10964,NY,Palisades,8
+10965,NY,Pearl River,8
+10968,NY,Piermont,8
+10977,NY,Spring Valley,8
+10983,NY,Tappan,8
+10989,NY,Valley Cottage,8
+10994,NY,West Nyack,8
+11001,NY,Floral Park,8
+11003,NY,Elmont,8
+11004,NY,Glen Oaks,8
+11005,NY,Floral Park,8
+11010,NY,Franklin Square,8
+11020,NY,Great Neck,8
+11021,NY,Great Neck,8
+11023,NY,Great Neck,8
+11024,NY,Great Neck,8
+11030,NY,Manhasset,8
+11040,NY,New Hyde Park,8
+11042,NY,New Hyde Park,8
+11050,NY,Port Washington,8
+11096,NY,Inwood,8
+11101,NY,Long Island City,8
+11102,NY,Astoria,8
+11103,NY,Astoria,8
+11104,NY,Sunnyside,8
+11105,NY,Astoria,8
+11106,NY,Astoria,8
+11201,NY,Brooklyn,8
+11203,NY,Brooklyn,8
+11204,NY,Brooklyn,8
+11205,NY,Brooklyn,8
+11206,NY,Brooklyn,8
+11207,NY,Brooklyn,8
+11208,NY,Brooklyn,8
+11209,NY,Brooklyn,8
+11210,NY,Brooklyn,8
+11211,NY,Brooklyn,8
+11212,NY,Brooklyn,8
+11213,NY,Brooklyn,8
+11214,NY,Brooklyn,8
+11215,NY,Brooklyn,8
+11216,NY,Brooklyn,8
+11217,NY,Brooklyn,8
+11218,NY,Brooklyn,8
+11219,NY,Brooklyn,8
+11220,NY,Brooklyn,8
+11221,NY,Brooklyn,8
+11222,NY,Brooklyn,8
+11223,NY,Brooklyn,8
+11224,NY,Brooklyn,8
+11225,NY,Brooklyn,8
+11226,NY,Brooklyn,8
+11228,NY,Brooklyn,8
+11229,NY,Brooklyn,8
+11230,NY,Brooklyn,8
+11231,NY,Brooklyn,8
+11232,NY,Brooklyn,8
+11233,NY,Brooklyn,8
+11234,NY,Brooklyn,8
+11235,NY,Brooklyn,8
+11236,NY,Brooklyn,8
+11237,NY,Brooklyn,8
+11238,NY,Brooklyn,8
+11239,NY,Brooklyn,8
+11241,NY,Brooklyn,8
+11242,NY,Brooklyn,8
+11243,NY,Brooklyn,8
+11245,NY,Brooklyn,8
+11249,NY,Brooklyn,8
+11252,NY,Brooklyn,8
+11256,NY,Brooklyn,8
+11354,NY,Flushing,8
+11355,NY,Flushing,8
+11356,NY,College Point,8
+11357,NY,Whitestone,8
+11358,NY,Flushing,8
+11360,NY,Bayside,8
+11361,NY,Bayside,8
+11362,NY,Little Neck,8
+11363,NY,Little Neck,8
+11364,NY,Oakland Gardens,8
+11365,NY,Fresh Meadows,8
+11366,NY,Fresh Meadows,8
+11367,NY,Flushing,8
+11368,NY,Corona,8
+11369,NY,East Elmhurst,8
+11370,NY,East Elmhurst,8
+11371,NY,Flushing,8
+11372,NY,Jackson Heights,8
+11373,NY,Elmhurst,8
+11374,NY,Rego Park,8
+11375,NY,Forest Hills,8
+11377,NY,Woodside,8
+11378,NY,Maspeth,8
+11379,NY,Middle Village,8
+11385,NY,Ridgewood,8
+11411,NY,Cambria Heights,8
+11412,NY,Saint Albans,8
+11413,NY,Springfield Gardens,8
+11414,NY,Howard Beach,8
+11415,NY,Kew Gardens,8
+11416,NY,Ozone Park,8
+11417,NY,Ozone Park,8
+11418,NY,Richmond Hill,8
+11419,NY,South Richmond Hill,8
+11420,NY,South Ozone Park,8
+11421,NY,Woodhaven,8
+11422,NY,Rosedale,8
+11423,NY,Hollis,8
+11426,NY,Bellerose,8
+11427,NY,Queens Village,8
+11428,NY,Queens Village,8
+11429,NY,Queens Village,8
+11430,NY,Jamaica,8
+11432,NY,Jamaica,8
+11433,NY,Jamaica,8
+11434,NY,Jamaica,8
+11435,NY,Jamaica,8
+11436,NY,Jamaica,8
+11439,NY,Jamaica,8
+11451,NY,Jamaica,8
+11501,NY,Mineola,8
+11507,NY,Albertson,8
+11509,NY,Atlantic Beach,8
+11510,NY,Baldwin,8
+11514,NY,Carle Place,8
+11516,NY,Cedarhurst,8
+11518,NY,East Rockaway,8
+11520,NY,Freeport,8
+11530,NY,Garden City,8
+11542,NY,Glen Cove,8
+11545,NY,Glen Head,8
+11548,NY,Greenvale,8
+11549,NY,Hempstead,8
+11550,NY,Hempstead,8
+11552,NY,West Hempstead,8
+11553,NY,Uniondale,8
+11554,NY,East Meadow,8
+11556,NY,Uniondale,8
+11557,NY,Hewlett,8
+11558,NY,Island Park,8
+11559,NY,Lawrence,8
+11560,NY,Locust Valley,8
+11561,NY,Long Beach,8
+11563,NY,Lynbrook,8
+11565,NY,Malverne,8
+11566,NY,Merrick,8
+11568,NY,Old Westbury,8
+11570,NY,Rockville Centre,8
+11572,NY,Oceanside,8
+11575,NY,Roosevelt,8
+11576,NY,Roslyn,8
+11577,NY,Roslyn Heights,8
+11579,NY,Sea Cliff,8
+11580,NY,Valley Stream,8
+11581,NY,Valley Stream,8
+11590,NY,Westbury,8
+11596,NY,Williston Park,8
+11598,NY,Woodmere,8
+11691,NY,Far Rockaway,8
+11692,NY,Arverne,8
+11693,NY,Far Rockaway,8
+11694,NY,Rockaway Park,8
+11697,NY,Breezy Point,8
+11701,NY,Amityville,8
+11702,NY,Babylon,8
+11703,NY,North Babylon,8
+11704,NY,West Babylon,8
+11705,NY,Bayport,8
+11706,NY,Bay Shore,8
+11709,NY,Bayville,8
+11710,NY,Bellmore,8
+11713,NY,Bellport,8
+11714,NY,Bethpage,8
+11715,NY,Blue Point,8
+11716,NY,Bohemia,8
+11717,NY,Brentwood,8
+11718,NY,Brightwaters,8
+11720,NY,Centereach,8
+11721,NY,Centerport,8
+11722,NY,Central Islip,8
+11724,NY,Cold Spring Harbor,8
+11725,NY,Commack,8
+11726,NY,Copiague,8
+11727,NY,Coram,8
+11729,NY,Deer Park,8
+11730,NY,East Islip,8
+11731,NY,East Northport,8
+11732,NY,East Norwich,8
+11733,NY,East Setauket,8
+11735,NY,Farmingdale,8
+11738,NY,Farmingville,8
+11740,NY,Greenlawn,8
+11741,NY,Holbrook,8
+11742,NY,Holtsville,8
+11743,NY,Huntington,8
+11746,NY,Huntington Station,8
+11747,NY,Melville,8
+11749,NY,Islandia,8
+11751,NY,Islip,8
+11752,NY,Islip Terrace,8
+11753,NY,Jericho,8
+11754,NY,Kings Park,8
+11755,NY,Lake Grove,8
+11756,NY,Levittown,8
+11757,NY,Lindenhurst,8
+11758,NY,Massapequa,8
+11762,NY,Massapequa Park,8
+11763,NY,Medford,8
+11765,NY,Mill Neck,8
+11766,NY,Mount Sinai,8
+11767,NY,Nesconset,8
+11768,NY,Northport,8
+11769,NY,Oakdale,8
+11771,NY,Oyster Bay,8
+11772,NY,Patchogue,8
+11776,NY,Port Jefferson Station,8
+11777,NY,Port Jefferson,8
+11779,NY,Ronkonkoma,8
+11780,NY,Saint James,8
+11782,NY,Sayville,8
+11783,NY,Seaford,8
+11784,NY,Selden,8
+11787,NY,Smithtown,8
+11788,NY,Hauppauge,8
+11790,NY,Stony Brook,8
+11791,NY,Syosset,8
+11793,NY,Wantagh,8
+11794,NY,Stony Brook,8
+11795,NY,West Islip,8
+11796,NY,West Sayville,8
+11797,NY,Woodbury,8
+11798,NY,Wyandanch,8
+11801,NY,Hicksville,8
+11803,NY,Plainview,8
+11804,NY,Old Bethpage,8
+18913,PA,Carversville,8
+18925,PA,Furlong,8
+18929,PA,Jamison,8
+18933,PA,Lumberville,8
+18938,PA,New Hope,8
+18940,PA,Newtown,8
+18954,PA,Richboro,8
+18966,PA,Southampton,8
+18974,PA,Warminster,8
+18976,PA,Warrington,8
+18977,PA,Washington Crossing,8
+19001,PA,Abington,8
+19002,PA,Ambler,8
+19003,PA,Ardmore,8
+19004,PA,Bala Cynwyd,8
+19006,PA,Huntingdon Valley,8
+19007,PA,Bristol,8
+19008,PA,Broomall,8
+19010,PA,Bryn Mawr,8
+19012,PA,Cheltenham,8
+19013,PA,Chester,8
+19014,PA,Aston,8
+19015,PA,Brookhaven,8
+19018,PA,Clifton Heights,8
+19020,PA,Bensalem,8
+19021,PA,Croydon,8
+19022,PA,Crum Lynne,8
+19023,PA,Darby,8
+19025,PA,Dresher,8
+19026,PA,Drexel Hill,8
+19027,PA,Elkins Park,8
+19029,PA,Essington,8
+19030,PA,Fairless Hills,8
+19032,PA,Folcroft,8
+19033,PA,Folsom,8
+19034,PA,Fort Washington,8
+19036,PA,Glenolden,8
+19038,PA,Glenside,8
+19040,PA,Hatboro,8
+19041,PA,Haverford,8
+19043,PA,Holmes,8
+19044,PA,Horsham,8
+19046,PA,Jenkintown,8
+19047,PA,Langhorne,8
+19050,PA,Lansdowne,8
+19053,PA,Feasterville Trevose,8
+19054,PA,Levittown,8
+19055,PA,Levittown,8
+19056,PA,Levittown,8
+19057,PA,Levittown,8
+19060,PA,Garnet Valley,8
+19061,PA,Marcus Hook,8
+19063,PA,Media,8
+19064,PA,Springfield,8
+19066,PA,Merion Station,8
+19067,PA,Morrisville,8
+19070,PA,Morton,8
+19072,PA,Narberth,8
+19073,PA,Newtown Square,8
+19074,PA,Norwood,8
+19075,PA,Oreland,8
+19076,PA,Prospect Park,8
+19078,PA,Ridley Park,8
+19079,PA,Sharon Hill,8
+19081,PA,Swarthmore,8
+19082,PA,Upper Darby,8
+19083,PA,Havertown,8
+19085,PA,Villanova,8
+19086,PA,Wallingford,8
+19087,PA,Wayne,8
+19090,PA,Willow Grove,8
+19094,PA,Woodlyn,8
+19095,PA,Wyncote,8
+19096,PA,Wynnewood,8
+19102,PA,Philadelphia,8
+19103,PA,Philadelphia,8
+19104,PA,Philadelphia,8
+19106,PA,Philadelphia,8
+19107,PA,Philadelphia,8
+19109,PA,Philadelphia,8
+19110,PA,Philadelphia,8
+19111,PA,Philadelphia,8
+19112,PA,Philadelphia,8
+19113,PA,Philadelphia,8
+19114,PA,Philadelphia,8
+19115,PA,Philadelphia,8
+19116,PA,Philadelphia,8
+19118,PA,Philadelphia,8
+19119,PA,Philadelphia,8
+19120,PA,Philadelphia,8
+19121,PA,Philadelphia,8
+19122,PA,Philadelphia,8
+19123,PA,Philadelphia,8
+19124,PA,Philadelphia,8
+19125,PA,Philadelphia,8
+19126,PA,Philadelphia,8
+19127,PA,Philadelphia,8
+19128,PA,Philadelphia,8
+19129,PA,Philadelphia,8
+19130,PA,Philadelphia,8
+19131,PA,Philadelphia,8
+19132,PA,Philadelphia,8
+19133,PA,Philadelphia,8
+19134,PA,Philadelphia,8
+19135,PA,Philadelphia,8
+19136,PA,Philadelphia,8
+19137,PA,Philadelphia,8
+19138,PA,Philadelphia,8
+19139,PA,Philadelphia,8
+19140,PA,Philadelphia,8
+19141,PA,Philadelphia,8
+19142,PA,Philadelphia,8
+19143,PA,Philadelphia,8
+19144,PA,Philadelphia,8
+19145,PA,Philadelphia,8
+19146,PA,Philadelphia,8
+19147,PA,Philadelphia,8
+19148,PA,Philadelphia,8
+19149,PA,Philadelphia,8
+19150,PA,Philadelphia,8
+19151,PA,Philadelphia,8
+19152,PA,Philadelphia,8
+19153,PA,Philadelphia,8
+19154,PA,Philadelphia,8
+19301,PA,Paoli,8
+19312,PA,Berwyn,8
+19317,PA,Chadds Ford,8
+19319,PA,Cheyney,8
+19333,PA,Devon,8
+19342,PA,Glen Mills,8
+19373,PA,Thornton,8
+19382,PA,West Chester,8
+19383,PA,West Chester,8
+19401,PA,Norristown,8
+19422,PA,Blue Bell,8
+19428,PA,Conshohocken,8
+19444,PA,Lafayette Hill,8
+19454,PA,North Wales,8
+19462,PA,Plymouth Meeting,8
+19477,PA,Spring House,8
+19701,DE,Bear,8
+19702,DE,Newark,8
+19703,DE,Claymont,8
+19706,DE,Delaware City,8
+19707,DE,Hockessin,8
+19709,DE,Middletown,8
+19711,DE,Newark,8
+19713,DE,Newark,8
+19716,DE,Newark,8
+19717,DE,Newark,8
+19720,DE,New Castle,8
+19734,DE,Townsend,8
+19735,DE,Winterthur,8
+19736,DE,Yorklyn,8
+19801,DE,Wilmington,8
+19802,DE,Wilmington,8
+19803,DE,Wilmington,8
+19804,DE,Wilmington,8
+19805,DE,Wilmington,8
+19806,DE,Wilmington,8
+19807,DE,Wilmington,8
+19808,DE,Wilmington,8
+19809,DE,Wilmington,8
+19810,DE,Wilmington,8
+20001,DC,Washington,8
+20002,DC,Washington,8
+20003,DC,Washington,8
+20004,DC,Washington,8
+20005,DC,Washington,8
+20006,DC,Washington,8
+20007,DC,Washington,8
+20008,DC,Washington,8
+20009,DC,Washington,8
+20010,DC,Washington,8
+20011,DC,Washington,8
+20012,DC,Washington,8
+20015,DC,Washington,8
+20016,DC,Washington,8
+20017,DC,Washington,8
+20018,DC,Washington,8
+20019,DC,Washington,8
+20020,DC,Washington,8
+20024,DC,Washington,8
+20032,DC,Washington,8
+20036,DC,Washington,8
+20037,DC,Washington,8
+20120,VA,Centreville,8
+20121,VA,Centreville,8
+20124,VA,Clifton,8
+20151,VA,Chantilly,8
+20170,VA,Herndon,8
+20171,VA,Herndon,8
+20190,VA,Reston,8
+20191,VA,Reston,8
+20194,VA,Reston,8
+20607,MD,Accokeek,8
+20613,MD,Brandywine,8
+20623,MD,Cheltenham,8
+20705,MD,Beltsville,8
+20706,MD,Lanham,8
+20707,MD,Laurel,8
+20708,MD,Laurel,8
+20710,MD,Bladensburg,8
+20711,MD,Lothian,8
+20712,MD,Mount Rainier,8
+20715,MD,Bowie,8
+20716,MD,Bowie,8
+20720,MD,Bowie,8
+20721,MD,Bowie,8
+20722,MD,Brentwood,8
+20723,MD,Laurel,8
+20724,MD,Laurel,8
+20733,MD,Churchton,8
+20735,MD,Clinton,8
+20737,MD,Riverdale,8
+20740,MD,College Park,8
+20743,MD,Capitol Heights,8
+20744,MD,Fort Washington,8
+20745,MD,Oxon Hill,8
+20746,MD,Suitland,8
+20747,MD,District Heights,8
+20748,MD,Temple Hills,8
+20751,MD,Deale,8
+20759,MD,Fulton,8
+20763,MD,Savage,8
+20764,MD,Shady Side,8
+20769,MD,Glenn Dale,8
+20770,MD,Greenbelt,8
+20772,MD,Upper Marlboro,8
+20774,MD,Upper Marlboro,8
+20776,MD,Harwood,8
+20777,MD,Highland,8
+20778,MD,West River,8
+20781,MD,Hyattsville,8
+20782,MD,Hyattsville,8
+20783,MD,Hyattsville,8
+20784,MD,Hyattsville,8
+20785,MD,Hyattsville,8
+20794,MD,Jessup,8
+20812,MD,Glen Echo,8
+20814,MD,Bethesda,8
+20815,MD,Chevy Chase,8
+20816,MD,Bethesda,8
+20817,MD,Bethesda,8
+20818,MD,Cabin John,8
+20832,MD,Olney,8
+20833,MD,Brookeville,8
+20837,MD,Poolesville,8
+20841,MD,Boyds,8
+20850,MD,Rockville,8
+20851,MD,Rockville,8
+20852,MD,Rockville,8
+20853,MD,Rockville,8
+20854,MD,Potomac,8
+20855,MD,Derwood,8
+20860,MD,Sandy Spring,8
+20861,MD,Ashton,8
+20862,MD,Brinklow,8
+20866,MD,Burtonsville,8
+20868,MD,Spencerville,8
+20876,MD,Germantown,8
+20877,MD,Gaithersburg,8
+20878,MD,Gaithersburg,8
+20879,MD,Gaithersburg,8
+20882,MD,Gaithersburg,8
+20886,MD,Montgomery Village,8
+20895,MD,Kensington,8
+20901,MD,Silver Spring,8
+20902,MD,Silver Spring,8
+20903,MD,Silver Spring,8
+20904,MD,Silver Spring,8
+20905,MD,Silver Spring,8
+20906,MD,Silver Spring,8
+20910,MD,Silver Spring,8
+20912,MD,Takoma Park,8
+21012,MD,Arnold,8
+21013,MD,Baldwin,8
+21029,MD,Clarksville,8
+21030,MD,Cockeysville,8
+21032,MD,Crownsville,8
+21035,MD,Davidsonville,8
+21036,MD,Dayton,8
+21037,MD,Edgewater,8
+21042,MD,Ellicott City,8
+21043,MD,Ellicott City,8
+21044,MD,Columbia,8
+21045,MD,Columbia,8
+21046,MD,Columbia,8
+21054,MD,Gambrills,8
+21057,MD,Glen Arm,8
+21060,MD,Glen Burnie,8
+21061,MD,Glen Burnie,8
+21075,MD,Elkridge,8
+21076,MD,Hanover,8
+21077,MD,Harmans,8
+21087,MD,Kingsville,8
+21090,MD,Linthicum Heights,8
+21093,MD,Lutherville Timonium,8
+21108,MD,Millersville,8
+21113,MD,Odenton,8
+21114,MD,Crofton,8
+21117,MD,Owings Mills,8
+21122,MD,Pasadena,8
+21128,MD,Perry Hall,8
+21131,MD,Phoenix,8
+21133,MD,Randallstown,8
+21140,MD,Riva,8
+21144,MD,Severn,8
+21146,MD,Severna Park,8
+21162,MD,White Marsh,8
+21163,MD,Woodstock,8
+21201,MD,Baltimore,8
+21202,MD,Baltimore,8
+21204,MD,Towson,8
+21205,MD,Baltimore,8
+21206,MD,Baltimore,8
+21207,MD,Gwynn Oak,8
+21208,MD,Pikesville,8
+21209,MD,Baltimore,8
+21210,MD,Baltimore,8
+21211,MD,Baltimore,8
+21212,MD,Baltimore,8
+21213,MD,Baltimore,8
+21214,MD,Baltimore,8
+21215,MD,Baltimore,8
+21216,MD,Baltimore,8
+21217,MD,Baltimore,8
+21218,MD,Baltimore,8
+21219,MD,Sparrows Point,8
+21220,MD,Middle River,8
+21221,MD,Essex,8
+21222,MD,Dundalk,8
+21223,MD,Baltimore,8
+21224,MD,Baltimore,8
+21225,MD,Brooklyn,8
+21226,MD,Curtis Bay,8
+21227,MD,Halethorpe,8
+21228,MD,Catonsville,8
+21229,MD,Baltimore,8
+21230,MD,Baltimore,8
+21231,MD,Baltimore,8
+21234,MD,Parkville,8
+21236,MD,Nottingham,8
+21237,MD,Rosedale,8
+21239,MD,Baltimore,8
+21244,MD,Windsor Mill,8
+21286,MD,Towson,8
+21401,MD,Annapolis,8
+21403,MD,Annapolis,8
+21723,MD,Cooksville,8
+21737,MD,Glenelg,8
+21738,MD,Glenwood,8
+21794,MD,West Friendship,8
+22003,VA,Annandale,8
+22015,VA,Burke,8
+22025,VA,Dumfries,8
+22026,VA,Dumfries,8
+22027,VA,Dunn Loring,8
+22030,VA,Fairfax,8
+22031,VA,Fairfax,8
+22032,VA,Fairfax,8
+22033,VA,Fairfax,8
+22039,VA,Fairfax Station,8
+22041,VA,Falls Church,8
+22042,VA,Falls Church,8
+22043,VA,Falls Church,8
+22044,VA,Falls Church,8
+22046,VA,Falls Church,8
+22066,VA,Great Falls,8
+22079,VA,Lorton,8
+22101,VA,Mc Lean,8
+22102,VA,Mc Lean,8
+22124,VA,Oakton,8
+22134,VA,Quantico,8
+22150,VA,Springfield,8
+22151,VA,Springfield,8
+22152,VA,Springfield,8
+22153,VA,Springfield,8
+22172,VA,Triangle,8
+22180,VA,Vienna,8
+22181,VA,Vienna,8
+22182,VA,Vienna,8
+22191,VA,Woodbridge,8
+22192,VA,Woodbridge,8
+22201,VA,Arlington,8
+22202,VA,Arlington,8
+22203,VA,Arlington,8
+22204,VA,Arlington,8
+22205,VA,Arlington,8
+22206,VA,Arlington,8
+22207,VA,Arlington,8
+22209,VA,Arlington,8
+22211,VA,Fort Myer,8
+22213,VA,Arlington,8
+22301,VA,Alexandria,8
+22302,VA,Alexandria,8
+22303,VA,Alexandria,8
+22304,VA,Alexandria,8
+22305,VA,Alexandria,8
+22306,VA,Alexandria,8
+22307,VA,Alexandria,8
+22308,VA,Alexandria,8
+22309,VA,Alexandria,8
+22310,VA,Alexandria,8
+22311,VA,Alexandria,8
+22312,VA,Alexandria,8
+22314,VA,Alexandria,8
+22315,VA,Alexandria,8
+22554,VA,Stafford,8
+22556,VA,Stafford,8
+20147,VA,Ashburn,8
+20148,VA,Ashburn,8
+20164,VA,Sterling,8
+20165,VA,Sterling,8
+20166,VA,Sterling,8
+22193,VA,Woodbridge,8
+22406,VA,Fredericksburg,8
+22407,VA,Fredericksburg,8
+20874,MD,Germantown,8
+90001,CA,Los Angeles,2
+90002,CA,Los Angeles,2
+90003,CA,Los Angeles,2
+90004,CA,Los Angeles,2
+90005,CA,Los Angeles,2
+90006,CA,Los Angeles,2
+90007,CA,Los Angeles,2
+90008,CA,Los Angeles,2
+90010,CA,Los Angeles,2
+90011,CA,Los Angeles,2
+90012,CA,Los Angeles,2
+90013,CA,Los Angeles,2
+90014,CA,Los Angeles,2
+90015,CA,Los Angeles,2
+90016,CA,Los Angeles,2
+90017,CA,Los Angeles,2
+90018,CA,Los Angeles,2
+90019,CA,Los Angeles,2
+90020,CA,Los Angeles,2
+90021,CA,Los Angeles,2
+90022,CA,Los Angeles,2
+90023,CA,Los Angeles,2
+90024,CA,Los Angeles,2
+90025,CA,Los Angeles,2
+90026,CA,Los Angeles,2
+90027,CA,Los Angeles,2
+90028,CA,Los Angeles,2
+90029,CA,Los Angeles,2
+90031,CA,Los Angeles,2
+90032,CA,Los Angeles,2
+90033,CA,Los Angeles,2
+90034,CA,Los Angeles,2
+90035,CA,Los Angeles,2
+90036,CA,Los Angeles,2
+90037,CA,Los Angeles,2
+90038,CA,Los Angeles,2
+90039,CA,Los Angeles,2
+90040,CA,Los Angeles,2
+90041,CA,Los Angeles,2
+90042,CA,Los Angeles,2
+90043,CA,Los Angeles,2
+90044,CA,Los Angeles,2
+90045,CA,Los Angeles,2
+90046,CA,Los Angeles,2
+90047,CA,Los Angeles,2
+90048,CA,Los Angeles,2
+90049,CA,Los Angeles,2
+90056,CA,Los Angeles,2
+90057,CA,Los Angeles,2
+90058,CA,Los Angeles,2
+90059,CA,Los Angeles,2
+90061,CA,Los Angeles,2
+90062,CA,Los Angeles,2
+90063,CA,Los Angeles,2
+90064,CA,Los Angeles,2
+90065,CA,Los Angeles,2
+90066,CA,Los Angeles,2
+90067,CA,Los Angeles,2
+90068,CA,Los Angeles,2
+90069,CA,West Hollywood,2
+90071,CA,Los Angeles,2
+90077,CA,Los Angeles,2
+90079,CA,Los Angeles,2
+90094,CA,Playa Vista,2
+90201,CA,Bell Gardens,2
+90210,CA,Beverly Hills,2
+90211,CA,Beverly Hills,2
+90212,CA,Beverly Hills,2
+90220,CA,Compton,2
+90221,CA,Compton,2
+90222,CA,Compton,2
+90230,CA,Culver City,2
+90232,CA,Culver City,2
+90240,CA,Downey,2
+90241,CA,Downey,2
+90242,CA,Downey,2
+90245,CA,El Segundo,2
+90247,CA,Gardena,2
+90248,CA,Gardena,2
+90249,CA,Gardena,2
+90250,CA,Hawthorne,2
+90254,CA,Hermosa Beach,2
+90255,CA,Huntington Park,2
+90260,CA,Lawndale,2
+90262,CA,Lynwood,2
+90266,CA,Manhattan Beach,2
+90270,CA,Maywood,2
+90272,CA,Pacific Palisades,2
+90274,CA,Palos Verdes Peninsula,2
+90275,CA,Rancho Palos Verdes,2
+90277,CA,Redondo Beach,2
+90278,CA,Redondo Beach,2
+90280,CA,South Gate,2
+90291,CA,Venice,2
+90292,CA,Marina Del Rey,2
+90293,CA,Playa Del Rey,2
+90301,CA,Inglewood,2
+90302,CA,Inglewood,2
+90303,CA,Inglewood,2
+90304,CA,Inglewood,2
+90305,CA,Inglewood,2
+90401,CA,Santa Monica,2
+90402,CA,Santa Monica,2
+90403,CA,Santa Monica,2
+90404,CA,Santa Monica,2
+90405,CA,Santa Monica,2
+90501,CA,Torrance,2
+90502,CA,Torrance,2
+90503,CA,Torrance,2
+90504,CA,Torrance,2
+90505,CA,Torrance,2
+90601,CA,Whittier,2
+90602,CA,Whittier,2
+90603,CA,Whittier,2
+90604,CA,Whittier,2
+90605,CA,Whittier,2
+90606,CA,Whittier,2
+90620,CA,Buena Park,2
+90621,CA,Buena Park,2
+90623,CA,La Palma,2
+90630,CA,Cypress,2
+90631,CA,La Habra,2
+90638,CA,La Mirada,2
+90640,CA,Montebello,2
+90650,CA,Norwalk,2
+90660,CA,Pico Rivera,2
+90670,CA,Santa Fe Springs,2
+90680,CA,Stanton,2
+90701,CA,Artesia,2
+90703,CA,Cerritos,2
+90706,CA,Bellflower,2
+90710,CA,Harbor City,2
+90712,CA,Lakewood,2
+90713,CA,Lakewood,2
+90715,CA,Lakewood,2
+90716,CA,Hawaiian Gardens,2
+90717,CA,Lomita,2
+90720,CA,Los Alamitos,2
+90723,CA,Paramount,2
+90731,CA,San Pedro,2
+90732,CA,San Pedro,2
+90740,CA,Seal Beach,2
+90744,CA,Wilmington,2
+90745,CA,Carson,2
+90746,CA,Carson,2
+90755,CA,Signal Hill,2
+90802,CA,Long Beach,2
+90803,CA,Long Beach,2
+90804,CA,Long Beach,2
+90805,CA,Long Beach,2
+90806,CA,Long Beach,2
+90807,CA,Long Beach,2
+90808,CA,Long Beach,2
+90810,CA,Long Beach,2
+90813,CA,Long Beach,2
+90814,CA,Long Beach,2
+90815,CA,Long Beach,2
+90831,CA,Long Beach,2
+91001,CA,Altadena,2
+91006,CA,Arcadia,2
+91007,CA,Arcadia,2
+91008,CA,Duarte,2
+91010,CA,Duarte,2
+91011,CA,La Canada Flintridge,2
+91016,CA,Monrovia,2
+91020,CA,Montrose,2
+91024,CA,Sierra Madre,2
+91030,CA,South Pasadena,2
+91040,CA,Sunland,2
+91042,CA,Tujunga,2
+91101,CA,Pasadena,2
+91103,CA,Pasadena,2
+91104,CA,Pasadena,2
+91105,CA,Pasadena,2
+91106,CA,Pasadena,2
+91107,CA,Pasadena,2
+91108,CA,San Marino,2
+91201,CA,Glendale,2
+91202,CA,Glendale,2
+91203,CA,Glendale,2
+91204,CA,Glendale,2
+91205,CA,Glendale,2
+91206,CA,Glendale,2
+91207,CA,Glendale,2
+91208,CA,Glendale,2
+91210,CA,Glendale,2
+91214,CA,La Crescenta,2
+91303,CA,Canoga Park,2
+91306,CA,Winnetka,2
+91311,CA,Chatsworth,2
+91316,CA,Encino,2
+91324,CA,Northridge,2
+91325,CA,Northridge,2
+91326,CA,Porter Ranch,2
+91331,CA,Pacoima,2
+91335,CA,Reseda,2
+91340,CA,San Fernando,2
+91342,CA,Sylmar,2
+91343,CA,North Hills,2
+91344,CA,Granada Hills,2
+91345,CA,Mission Hills,2
+91350,CA,Santa Clarita,2
+91351,CA,Canyon Country,2
+91352,CA,Sun Valley,2
+91356,CA,Tarzana,2
+91364,CA,Woodland Hills,2
+91387,CA,Canyon Country,2
+91401,CA,Van Nuys,2
+91402,CA,Panorama City,2
+91403,CA,Sherman Oaks,2
+91405,CA,Van Nuys,2
+91406,CA,Van Nuys,2
+91411,CA,Van Nuys,2
+91423,CA,Sherman Oaks,2
+91436,CA,Encino,2
+91501,CA,Burbank,2
+91502,CA,Burbank,2
+91504,CA,Burbank,2
+91505,CA,Burbank,2
+91506,CA,Burbank,2
+91601,CA,North Hollywood,2
+91602,CA,North Hollywood,2
+91604,CA,Studio City,2
+91605,CA,North Hollywood,2
+91606,CA,North Hollywood,2
+91607,CA,Valley Village,2
+91608,CA,Universal City,2
+91701,CA,Rancho Cucamonga,2
+91702,CA,Azusa,2
+91706,CA,Baldwin Park,2
+91708,CA,Chino,2
+91709,CA,Chino Hills,2
+91710,CA,Chino,2
+91711,CA,Claremont,2
+91722,CA,Covina,2
+91723,CA,Covina,2
+91724,CA,Covina,2
+91730,CA,Rancho Cucamonga,2
+91731,CA,El Monte,2
+91732,CA,El Monte,2
+91733,CA,South El Monte,2
+91737,CA,Rancho Cucamonga,2
+91739,CA,Rancho Cucamonga,2
+91740,CA,Glendora,2
+91741,CA,Glendora,2
+91744,CA,La Puente,2
+91745,CA,Hacienda Heights,2
+91746,CA,La Puente,2
+91748,CA,Rowland Heights,2
+91750,CA,La Verne,2
+91752,CA,Mira Loma,2
+91754,CA,Monterey Park,2
+91755,CA,Monterey Park,2
+91761,CA,Ontario,2
+91762,CA,Ontario,2
+91763,CA,Montclair,2
+91764,CA,Ontario,2
+91765,CA,Diamond Bar,2
+91766,CA,Pomona,2
+91767,CA,Pomona,2
+91768,CA,Pomona,2
+91770,CA,Rosemead,2
+91773,CA,San Dimas,2
+91775,CA,San Gabriel,2
+91776,CA,San Gabriel,2
+91780,CA,Temple City,2
+91784,CA,Upland,2
+91786,CA,Upland,2
+91789,CA,Walnut,2
+91790,CA,West Covina,2
+91791,CA,West Covina,2
+91792,CA,West Covina,2
+91801,CA,Alhambra,2
+91803,CA,Alhambra,2
+91902,CA,Bonita,2
+91910,CA,Chula Vista,2
+91911,CA,Chula Vista,2
+91913,CA,Chula Vista,2
+91914,CA,Chula Vista,2
+91915,CA,Chula Vista,2
+91932,CA,Imperial Beach,2
+91941,CA,La Mesa,2
+91942,CA,La Mesa,2
+91945,CA,Lemon Grove,2
+91950,CA,National City,2
+91977,CA,Spring Valley,2
+92003,CA,Bonsall,2
+92007,CA,Cardiff By The Sea,2
+92008,CA,Carlsbad,2
+92009,CA,Carlsbad,2
+92010,CA,Carlsbad,2
+92011,CA,Carlsbad,2
+92014,CA,Del Mar,2
+92020,CA,El Cajon,2
+92021,CA,El Cajon,2
+92024,CA,Encinitas,2
+92025,CA,Escondido,2
+92026,CA,Escondido,2
+92027,CA,Escondido,2
+92028,CA,Fallbrook,2
+92029,CA,Escondido,2
+92037,CA,La Jolla,2
+92054,CA,Oceanside,2
+92056,CA,Oceanside,2
+92057,CA,Oceanside,2
+92059,CA,Pala,2
+92064,CA,Poway,2
+92069,CA,San Marcos,2
+92071,CA,Santee,2
+92075,CA,Solana Beach,2
+92078,CA,San Marcos,2
+92081,CA,Vista,2
+92083,CA,Vista,2
+92084,CA,Vista,2
+92091,CA,Rancho Santa Fe,2
+92101,CA,San Diego,2
+92102,CA,San Diego,2
+92103,CA,San Diego,2
+92104,CA,San Diego,2
+92105,CA,San Diego,2
+92106,CA,San Diego,2
+92107,CA,San Diego,2
+92108,CA,San Diego,2
+92109,CA,San Diego,2
+92110,CA,San Diego,2
+92111,CA,San Diego,2
+92113,CA,San Diego,2
+92114,CA,San Diego,2
+92115,CA,San Diego,2
+92116,CA,San Diego,2
+92117,CA,San Diego,2
+92119,CA,San Diego,2
+92120,CA,San Diego,2
+92121,CA,San Diego,2
+92122,CA,San Diego,2
+92123,CA,San Diego,2
+92124,CA,San Diego,2
+92126,CA,San Diego,2
+92127,CA,San Diego,2
+92128,CA,San Diego,2
+92129,CA,San Diego,2
+92130,CA,San Diego,2
+92131,CA,San Diego,2
+92139,CA,San Diego,2
+92154,CA,San Diego,2
+92173,CA,San Ysidro,2
+92179,CA,San Diego,2
+92223,CA,Beaumont,2
+92313,CA,Grand Terrace,2
+92316,CA,Bloomington,2
+92320,CA,Calimesa,2
+92324,CA,Colton,2
+92335,CA,Fontana,2
+92336,CA,Fontana,2
+92337,CA,Fontana,2
+92345,CA,Hesperia,2
+92346,CA,Highland,2
+92354,CA,Loma Linda,2
+92359,CA,Mentone,2
+92373,CA,Redlands,2
+92374,CA,Redlands,2
+92376,CA,Rialto,2
+92377,CA,Rialto,2
+92392,CA,Victorville,2
+92399,CA,Yucaipa,2
+92401,CA,San Bernardino,2
+92404,CA,San Bernardino,2
+92405,CA,San Bernardino,2
+92407,CA,San Bernardino,2
+92408,CA,San Bernardino,2
+92410,CA,San Bernardino,2
+92411,CA,San Bernardino,2
+92501,CA,Riverside,2
+92503,CA,Riverside,2
+92504,CA,Riverside,2
+92505,CA,Riverside,2
+92506,CA,Riverside,2
+92507,CA,Riverside,2
+92508,CA,Riverside,2
+92509,CA,Riverside,2
+92518,CA,March Air Reserve Base,2
+92530,CA,Lake Elsinore,2
+92532,CA,Lake Elsinore,2
+92543,CA,Hemet,2
+92545,CA,Hemet,2
+92548,CA,Homeland,2
+92551,CA,Moreno Valley,2
+92553,CA,Moreno Valley,2
+92555,CA,Moreno Valley,2
+92557,CA,Moreno Valley,2
+92562,CA,Murrieta,2
+92563,CA,Murrieta,2
+92567,CA,Nuevo,2
+92570,CA,Perris,2
+92571,CA,Perris,2
+92582,CA,San Jacinto,2
+92583,CA,San Jacinto,2
+92584,CA,Menifee,2
+92585,CA,Sun City,2
+92586,CA,Sun City,2
+92587,CA,Sun City,2
+92590,CA,Temecula,2
+92591,CA,Temecula,2
+92592,CA,Temecula,2
+92595,CA,Wildomar,2
+92596,CA,Winchester,2
+92602,CA,Irvine,2
+92603,CA,Irvine,2
+92604,CA,Irvine,2
+92606,CA,Irvine,2
+92610,CA,Foothill Ranch,2
+92612,CA,Irvine,2
+92614,CA,Irvine,2
+92617,CA,Irvine,2
+92618,CA,Irvine,2
+92620,CA,Irvine,2
+92624,CA,Capistrano Beach,2
+92625,CA,Corona Del Mar,2
+92626,CA,Costa Mesa,2
+92627,CA,Costa Mesa,2
+92629,CA,Dana Point,2
+92630,CA,Lake Forest,2
+92637,CA,Laguna Woods,2
+92646,CA,Huntington Beach,2
+92647,CA,Huntington Beach,2
+92648,CA,Huntington Beach,2
+92649,CA,Huntington Beach,2
+92651,CA,Laguna Beach,2
+92653,CA,Laguna Hills,2
+92655,CA,Midway City,2
+92656,CA,Aliso Viejo,2
+92657,CA,Newport Coast,2
+92660,CA,Newport Beach,2
+92661,CA,Newport Beach,2
+92662,CA,Newport Beach,2
+92663,CA,Newport Beach,2
+92672,CA,San Clemente,2
+92673,CA,San Clemente,2
+92675,CA,San Juan Capistrano,2
+92676,CA,Silverado,2
+92677,CA,Laguna Niguel,2
+92679,CA,Trabuco Canyon,2
+92683,CA,Westminster,2
+92688,CA,Rancho Santa Margarita,2
+92691,CA,Mission Viejo,2
+92692,CA,Mission Viejo,2
+92694,CA,Ladera Ranch,2
+92701,CA,Santa Ana,2
+92703,CA,Santa Ana,2
+92704,CA,Santa Ana,2
+92705,CA,Santa Ana,2
+92706,CA,Santa Ana,2
+92707,CA,Santa Ana,2
+92708,CA,Fountain Valley,2
+92780,CA,Tustin,2
+92782,CA,Tustin,2
+92801,CA,Anaheim,2
+92802,CA,Anaheim,2
+92804,CA,Anaheim,2
+92805,CA,Anaheim,2
+92806,CA,Anaheim,2
+92807,CA,Anaheim,2
+92808,CA,Anaheim,2
+92821,CA,Brea,2
+92823,CA,Brea,2
+92831,CA,Fullerton,2
+92832,CA,Fullerton,2
+92833,CA,Fullerton,2
+92835,CA,Fullerton,2
+92840,CA,Garden Grove,2
+92841,CA,Garden Grove,2
+92843,CA,Garden Grove,2
+92844,CA,Garden Grove,2
+92845,CA,Garden Grove,2
+92860,CA,Norco,2
+92861,CA,Villa Park,2
+92865,CA,Orange,2
+92866,CA,Orange,2
+92867,CA,Orange,2
+92868,CA,Orange,2
+92869,CA,Orange,2
+92870,CA,Placentia,2
+92879,CA,Corona,2
+92880,CA,Corona,2
+92881,CA,Corona,2
+92882,CA,Corona,2
+92883,CA,Corona,2
+92886,CA,Yorba Linda,2
+92887,CA,Yorba Linda,2
+93063,CA,Simi Valley,2
+93065,CA,Simi Valley,2

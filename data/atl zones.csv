@@ -1,0 +1,590 @@
+zipcode,state,city,zone
+30002,GA,Avondale Estates,2
+30004,GA,Alpharetta,2
+30005,GA,Alpharetta,2
+30008,GA,Marietta,2
+30011,GA,Auburn,2
+30012,GA,Conyers,2
+30013,GA,Conyers,2
+30014,GA,Covington,2
+30016,GA,Covington,2
+30017,GA,Grayson,2
+30019,GA,Dacula,2
+30021,GA,Clarkston,2
+30022,GA,Alpharetta,2
+30024,GA,Suwanee,2
+30028,GA,Cumming,2
+30030,GA,Decatur,2
+30032,GA,Decatur,2
+30033,GA,Decatur,2
+30034,GA,Decatur,2
+30035,GA,Decatur,2
+30038,GA,Lithonia,2
+30039,GA,Snellville,2
+30040,GA,Cumming,2
+30041,GA,Cumming,2
+30043,GA,Lawrenceville,2
+30044,GA,Lawrenceville,2
+30045,GA,Lawrenceville,2
+30047,GA,Lilburn,2
+30052,GA,Loganville,2
+30054,GA,Oxford,2
+30058,GA,Lithonia,2
+30060,GA,Marietta,2
+30062,GA,Marietta,2
+30064,GA,Marietta,2
+30066,GA,Marietta,2
+30067,GA,Marietta,2
+30068,GA,Marietta,2
+30071,GA,Norcross,2
+30075,GA,Roswell,2
+30076,GA,Roswell,2
+30078,GA,Snellville,2
+30079,GA,Scottdale,2
+30080,GA,Smyrna,2
+30082,GA,Smyrna,2
+30083,GA,Stone Mountain,2
+30084,GA,Tucker,2
+30087,GA,Stone Mountain,2
+30088,GA,Stone Mountain,2
+30092,GA,Norcross,2
+30093,GA,Norcross,2
+30094,GA,Conyers,2
+30096,GA,Duluth,2
+30097,GA,Duluth,2
+30101,GA,Acworth,2
+30102,GA,Acworth,2
+30106,GA,Austell,2
+30114,GA,Canton,2
+30115,GA,Canton,2
+30120,GA,Cartersville,2
+30122,GA,Lithia Springs,2
+30126,GA,Mableton,2
+30127,GA,Powder Springs,2
+30132,GA,Dallas,2
+30134,GA,Douglasville,2
+30135,GA,Douglasville,2
+30137,GA,Emerson,2
+30141,GA,Hiram,2
+30144,GA,Kennesaw,2
+30148,GA,Marble Hill,2
+30152,GA,Kennesaw,2
+30157,GA,Dallas,2
+30168,GA,Austell,2
+30177,GA,Tate,2
+30180,GA,Villa Rica,2
+30188,GA,Woodstock,2
+30189,GA,Woodstock,2
+30213,GA,Fairburn,2
+30214,GA,Fayetteville,2
+30228,GA,Hampton,2
+30236,GA,Jonesboro,2
+30238,GA,Jonesboro,2
+30252,GA,Mcdonough,2
+30253,GA,Mcdonough,2
+30260,GA,Morrow,2
+30263,GA,Newnan,2
+30265,GA,Newnan,2
+30273,GA,Rex,2
+30274,GA,Riverdale,2
+30281,GA,Stockbridge,2
+30288,GA,Conley,2
+30291,GA,Union City,2
+30294,GA,Ellenwood,2
+30296,GA,Riverdale,2
+30297,GA,Forest Park,2
+30303,GA,Atlanta,2
+30305,GA,Atlanta,2
+30306,GA,Atlanta,2
+30307,GA,Atlanta,2
+30308,GA,Atlanta,2
+30309,GA,Atlanta,2
+30310,GA,Atlanta,2
+30311,GA,Atlanta,2
+30312,GA,Atlanta,2
+30313,GA,Atlanta,2
+30314,GA,Atlanta,2
+30315,GA,Atlanta,2
+30316,GA,Atlanta,2
+30317,GA,Atlanta,2
+30318,GA,Atlanta,2
+30319,GA,Atlanta,2
+30322,GA,Atlanta,2
+30324,GA,Atlanta,2
+30326,GA,Atlanta,2
+30327,GA,Atlanta,2
+30328,GA,Atlanta,2
+30329,GA,Atlanta,2
+30331,GA,Atlanta,2
+30336,GA,Atlanta,2
+30337,GA,Atlanta,2
+30338,GA,Atlanta,2
+30339,GA,Atlanta,2
+30340,GA,Atlanta,2
+30341,GA,Atlanta,2
+30342,GA,Atlanta,2
+30344,GA,Atlanta,2
+30345,GA,Atlanta,2
+30346,GA,Atlanta,2
+30349,GA,Atlanta,2
+30350,GA,Atlanta,2
+30354,GA,Atlanta,2
+30360,GA,Atlanta,2
+30506,GA,Gainesville,2
+30517,GA,Braselton,2
+30518,GA,Buford,2
+30519,GA,Buford,2
+30534,GA,Dawsonville,2
+30542,GA,Flowery Branch,2
+30548,GA,Hoschton,2
+30620,GA,Bethlehem,2
+30680,GA,Winder,2
+33510,FL,Brandon,4
+33511,FL,Brandon,4
+33523,FL,Dade City,4
+33525,FL,Dade City,4
+33527,FL,Dover,4
+33534,FL,Gibsonton,4
+33540,FL,Zephyrhills,4
+33541,FL,Zephyrhills,4
+33542,FL,Zephyrhills,4
+33543,FL,Wesley Chapel,4
+33544,FL,Wesley Chapel,4
+33545,FL,Wesley Chapel,4
+33547,FL,Lithia,4
+33548,FL,Lutz,4
+33549,FL,Lutz,4
+33556,FL,Odessa,4
+33558,FL,Lutz,4
+33559,FL,Lutz,4
+33563,FL,Plant City,4
+33565,FL,Plant City,4
+33566,FL,Plant City,4
+33567,FL,Plant City,4
+33569,FL,Riverview,4
+33570,FL,Ruskin,4
+33572,FL,Apollo Beach,4
+33573,FL,Sun City Center,4
+33576,FL,San Antonio,4
+33578,FL,Riverview,4
+33579,FL,Riverview,4
+33584,FL,Seffner,4
+33592,FL,Thonotosassa,4
+33594,FL,Valrico,4
+33596,FL,Valrico,4
+33598,FL,Wimauma,4
+33602,FL,Tampa,4
+33603,FL,Tampa,4
+33604,FL,Tampa,4
+33605,FL,Tampa,4
+33606,FL,Tampa,4
+33607,FL,Tampa,4
+33609,FL,Tampa,4
+33610,FL,Tampa,4
+33611,FL,Tampa,4
+33612,FL,Tampa,4
+33613,FL,Tampa,4
+33614,FL,Tampa,4
+33615,FL,Tampa,4
+33616,FL,Tampa,4
+33617,FL,Tampa,4
+33618,FL,Tampa,4
+33619,FL,Tampa,4
+33620,FL,Tampa,4
+33621,FL,Tampa,4
+33624,FL,Tampa,4
+33625,FL,Tampa,4
+33626,FL,Tampa,4
+33629,FL,Tampa,4
+33634,FL,Tampa,4
+33635,FL,Tampa,4
+33637,FL,Tampa,4
+33647,FL,Tampa,4
+33701,FL,Saint Petersburg,4
+33702,FL,Saint Petersburg,4
+33703,FL,Saint Petersburg,4
+33704,FL,Saint Petersburg,4
+33705,FL,Saint Petersburg,4
+33706,FL,Saint Petersburg,4
+33707,FL,Saint Petersburg,4
+33708,FL,Saint Petersburg,4
+33709,FL,Saint Petersburg,4
+33710,FL,Saint Petersburg,4
+33711,FL,Saint Petersburg,4
+33712,FL,Saint Petersburg,4
+33713,FL,Saint Petersburg,4
+33714,FL,Saint Petersburg,4
+33715,FL,Saint Petersburg,4
+33716,FL,Saint Petersburg,4
+33755,FL,Clearwater,4
+33756,FL,Clearwater,4
+33759,FL,Clearwater,4
+33760,FL,Clearwater,4
+33761,FL,Clearwater,4
+33762,FL,Clearwater,4
+33763,FL,Clearwater,4
+33764,FL,Clearwater,4
+33765,FL,Clearwater,4
+33767,FL,Clearwater Beach,4
+33770,FL,Largo,4
+33771,FL,Largo,4
+33772,FL,Seminole,4
+33773,FL,Largo,4
+33774,FL,Largo,4
+33776,FL,Seminole,4
+33777,FL,Seminole,4
+33778,FL,Largo,4
+33781,FL,Pinellas Park,4
+33782,FL,Pinellas Park,4
+33785,FL,Indian Rocks Beach,4
+33786,FL,Belleair Beach,4
+33801,FL,Lakeland,4
+33803,FL,Lakeland,4
+33805,FL,Lakeland,4
+33809,FL,Lakeland,4
+33810,FL,Lakeland,4
+33811,FL,Lakeland,4
+33812,FL,Lakeland,4
+33813,FL,Lakeland,4
+33815,FL,Lakeland,4
+34201,FL,Bradenton,4
+34202,FL,Bradenton,4
+34203,FL,Bradenton,4
+34205,FL,Bradenton,4
+34207,FL,Bradenton,4
+34208,FL,Bradenton,4
+34209,FL,Bradenton,4
+34210,FL,Bradenton,4
+34211,FL,Bradenton,4
+34212,FL,Bradenton,4
+34215,FL,Cortez,4
+34217,FL,Bradenton Beach,4
+34219,FL,Parrish,4
+34221,FL,Palmetto,4
+34222,FL,Ellenton,4
+34223,FL,Englewood,4
+34224,FL,Englewood,4
+34228,FL,Longboat Key,4
+34229,FL,Osprey,4
+34231,FL,Sarasota,4
+34232,FL,Sarasota,4
+34233,FL,Sarasota,4
+34234,FL,Sarasota,4
+34235,FL,Sarasota,4
+34236,FL,Sarasota,4
+34237,FL,Sarasota,4
+34238,FL,Sarasota,4
+34239,FL,Sarasota,4
+34240,FL,Sarasota,4
+34241,FL,Sarasota,4
+34242,FL,Sarasota,4
+34243,FL,Sarasota,4
+34249,FL,Sarasota,4
+34251,FL,Myakka City,4
+34606,FL,Spring Hill,4
+34607,FL,Spring Hill,4
+34608,FL,Spring Hill,4
+34609,FL,Spring Hill,4
+34610,FL,Spring Hill,4
+34613,FL,Brooksville,4
+34614,FL,Brooksville,4
+34637,FL,Land O Lakes,4
+34638,FL,Land O Lakes,4
+34639,FL,Land O Lakes,4
+34652,FL,New Port Richey,4
+34653,FL,New Port Richey,4
+34654,FL,New Port Richey,4
+34655,FL,New Port Richey,4
+34668,FL,Port Richey,4
+34669,FL,Hudson,4
+34677,FL,Oldsmar,4
+34683,FL,Palm Harbor,4
+34684,FL,Palm Harbor,4
+34685,FL,Palm Harbor,4
+34690,FL,Holiday,4
+34691,FL,Holiday,4
+34695,FL,Safety Harbor,4
+34698,FL,Dunedin,4
+32713,FL,Debary,4
+32720,FL,Deland,4
+32723,FL,Deland,4
+32724,FL,Deland,4
+32725,FL,Deltona,4
+32726,FL,Eustis,4
+32735,FL,Grand Island,4
+32738,FL,Deltona,4
+32744,FL,Lake Helen,4
+32701,FL,Altamonte Springs,4
+32703,FL,Apopka,4
+32757,FL,Mount Dora,4
+32763,FL,Orange City,4
+32764,FL,Osteen,4
+32707,FL,Casselberry,4
+32708,FL,Winter Springs,4
+32709,FL,Christmas,4
+32776,FL,Sorrento,4
+32714,FL,Altamonte Springs,4
+32778,FL,Tavares,4
+32730,FL,Casselberry,4
+32732,FL,Geneva,4
+32746,FL,Lake Mary,4
+32750,FL,Longwood,4
+32751,FL,Maitland,4
+32765,FL,Oviedo,4
+32766,FL,Oviedo,4
+32771,FL,Sanford,4
+32773,FL,Sanford,4
+32779,FL,Longwood,4
+32789,FL,Winter Park,4
+32792,FL,Winter Park,4
+32798,FL,Zellwood,4
+32801,FL,Orlando,4
+32803,FL,Orlando,4
+32804,FL,Orlando,4
+32805,FL,Orlando,4
+32806,FL,Orlando,4
+32807,FL,Orlando,4
+32808,FL,Orlando,4
+32809,FL,Orlando,4
+32810,FL,Orlando,4
+32811,FL,Orlando,4
+32812,FL,Orlando,4
+32814,FL,Orlando,4
+32816,FL,Orlando,4
+32817,FL,Orlando,4
+32818,FL,Orlando,4
+32819,FL,Orlando,4
+32820,FL,Orlando,4
+32821,FL,Orlando,4
+32822,FL,Orlando,4
+32824,FL,Orlando,4
+32825,FL,Orlando,4
+32826,FL,Orlando,4
+32827,FL,Orlando,4
+32828,FL,Orlando,4
+32829,FL,Orlando,4
+32830,FL,Orlando,4
+32832,FL,Orlando,4
+32833,FL,Orlando,4
+32834,FL,Orlando,4
+32835,FL,Orlando,4
+32836,FL,Orlando,4
+32837,FL,Orlando,4
+32839,FL,Orlando,4
+34731,FL,Fruitland Park,4
+32712,FL,Apopka,4
+33896,FL,Davenport,4
+33897,FL,Davenport,4
+33898,FL,Lake Wales,4
+34759,FL,Kissimmee,4
+34714,FL,Clermont,4
+33823,FL,Auburndale,4
+33837,FL,Davenport,4
+33838,FL,Dundee,4
+33839,FL,Eagle Lake,4
+33844,FL,Haines City,4
+33850,FL,Lake Alfred,4
+33868,FL,Polk City,4
+33880,FL,Winter Heaven,4
+33881,FL,Winter Heaven,4
+33884,FL,Winter Heaven,4
+32754,FL,Mims,4
+34711,FL,Clermont,4
+34715,FL,Clermont,4
+34734,FL,Gotha,4
+34739,FL,Kenansville,4
+34741,FL,Kissimmee,4
+34743,FL,Kissimmee,4
+34744,FL,Kissimmee,4
+34746,FL,Kissimmee,4
+34747,FL,Kissimmee,4
+34756,FL,Montverde,4
+34758,FL,Kissimmee,4
+34760,FL,Oakland,4
+34761,FL,Ocoee,4
+34769,FL,Saint Cloud,4
+34771,FL,Saint Cloud,4
+34772,FL,Saint Cloud,4
+34786,FL,Windermere,4
+34787,FL,Winter Garden,4
+33004,FL,Dania,4
+33009,FL,Hallandale,4
+33010,FL,Hialeah,4
+33012,FL,Hialeah,4
+33013,FL,Hialeah,4
+33014,FL,Hialeah,4
+33015,FL,Hialeah,4
+33016,FL,Hialeah,4
+33018,FL,Hialeah,4
+33019,FL,Hollywood,4
+33020,FL,Hollywood,4
+33021,FL,Hollywood,4
+33023,FL,Hollywood,4
+33024,FL,Hollywood,4
+33025,FL,Hollywood,4
+33026,FL,Hollywood,4
+33027,FL,Hollywood,4
+33028,FL,Pembroke Pines,4
+33029,FL,Hollywood,4
+33030,FL,Homestead,4
+33031,FL,Homestead,4
+33032,FL,Homestead,4
+33033,FL,Homestead,4
+33034,FL,Homestead,4
+33035,FL,Homestead,4
+33054,FL,Opa Locka,4
+33055,FL,Opa Locka,4
+33056,FL,Opa Locka,4
+33060,FL,Pompano Beach,4
+33062,FL,Pompano Beach,4
+33063,FL,Pompano Beach,4
+33064,FL,Pompano Beach,4
+33066,FL,Pompano Beach,4
+33067,FL,Pompano Beach,4
+33068,FL,Pompano Beach,4
+33069,FL,Pompano Beach,4
+33073,FL,Pompano Beach,4
+33076,FL,Pompano Beach,4
+33101,FL,Miami,4
+33106,FL,Miami,4
+33122,FL,Miami,4
+33125,FL,Miami,4
+33126,FL,Miami,4
+33127,FL,Miami,4
+33128,FL,Miami,4
+33129,FL,Miami,4
+33130,FL,Miami,4
+33131,FL,Miami,4
+33132,FL,Miami,4
+33133,FL,Miami,4
+33134,FL,Miami,4
+33135,FL,Miami,4
+33136,FL,Miami,4
+33137,FL,Miami,4
+33138,FL,Miami,4
+33139,FL,Miami Beach,4
+33140,FL,Miami Beach,4
+33141,FL,Miami Beach,4
+33142,FL,Miami,4
+33143,FL,Miami,4
+33144,FL,Miami,4
+33145,FL,Miami,4
+33146,FL,Miami,4
+33147,FL,Miami,4
+33149,FL,Miami,4
+33150,FL,Miami,4
+33154,FL,Miami Beach,4
+33155,FL,Miami,4
+33156,FL,Miami,4
+33157,FL,Miami,4
+33158,FL,Miami,4
+33160,FL,North Miami Beach,4
+33161,FL,Miami,4
+33162,FL,Miami,4
+33165,FL,Miami,4
+33166,FL,Miami,4
+33167,FL,Miami,4
+33168,FL,Miami,4
+33169,FL,Miami,4
+33170,FL,Miami,4
+33172,FL,Miami,4
+33173,FL,Miami,4
+33174,FL,Miami,4
+33175,FL,Miami,4
+33176,FL,Miami,4
+33177,FL,Miami,4
+33178,FL,Miami,4
+33179,FL,Miami,4
+33180,FL,Miami,4
+33181,FL,Miami,4
+33182,FL,Miami,4
+33183,FL,Miami,4
+33184,FL,Miami,4
+33185,FL,Miami,4
+33186,FL,Miami,4
+33187,FL,Miami,4
+33189,FL,Miami,4
+33190,FL,Miami,4
+33193,FL,Miami,4
+33194,FL,Miami,4
+33196,FL,Miami,4
+33198,FL,Miami,4
+33206,FL,Miami,4
+33266,FL,Miami,4
+33301,FL,Fort Laudedale,4
+33304,FL,Fort Laudedale,4
+33305,FL,Fort Laudedale,4
+33306,FL,Fort Laudedale,4
+33308,FL,Fort Laudedale,4
+33309,FL,Fort Laudedale,4
+33311,FL,Fort Laudedale,4
+33312,FL,Fort Laudedale,4
+33313,FL,Fort Laudedale,4
+33314,FL,Fort Laudedale,4
+33315,FL,Fort Laudedale,4
+33316,FL,Fort Laudedale,4
+33317,FL,Fort Laudedale,4
+33319,FL,Fort Laudedale,4
+33321,FL,Fort Laudedale,4
+33322,FL,Fort Laudedale,4
+33323,FL,Fort Laudedale,4
+33324,FL,Fort Laudedale,4
+33325,FL,Fort Laudedale,4
+33326,FL,Fort Laudedale,4
+33327,FL,Fort Laudedale,4
+33328,FL,Fort Laudedale,4
+33330,FL,Fort Laudedale,4
+33331,FL,Fort Laudedale,4
+33332,FL,Fort Laudedale,4
+33334,FL,Fort Laudedale,4
+33351,FL,Fort Laudedale,4
+33065,FL,Coral Springs,4
+33071,FL,Coral Springs,4
+33401,FL,West Palm Beach,4
+33403,FL,West Palm Beach,4
+33404,FL,West Palm Beach,4
+33405,FL,West Palm Beach,4
+33406,FL,West Palm Beach,4
+33407,FL,West Palm Beach,4
+33408,FL,North Palm Beach,4
+33409,FL,West Palm Beach,4
+33410,FL,Palm Beach Gardens,4
+33411,FL,West Palm Beach,4
+33412,FL,West Palm Beach,4
+33413,FL,West Palm Beach,4
+33414,FL,Wellington,4
+33415,FL,West Palm Beach,4
+33417,FL,West Palm Beach,4
+33418,FL,Palm Beach Gardens,4
+33426,FL,Boynton Beach,4
+33428,FL,Boca Raton,4
+33431,FL,Boca Raton,4
+33432,FL,Boca Raton,4
+33433,FL,Boca Raton,4
+33434,FL,Boca Raton,4
+33435,FL,Boynton Beach,4
+33436,FL,Boynton Beach,4
+33437,FL,Boynton Beach,4
+33441,FL,Deerfield Beach,4
+33442,FL,Deerfield Beach,4
+33444,FL,Delray Beach,4
+33445,FL,Delray Beach,4
+33446,FL,Delray Beach,4
+33455,FL,Hobe Sound,4
+33458,FL,Jupiter,4
+33460,FL,Lake Worth Beach,4
+33461,FL,Lake Worth,4
+33462,FL,Lake Worth,4
+33463,FL,Lake Worth,4
+33467,FL,Lake Worth,4
+33469,FL,Jupiter,4
+33470,FL,Loxahatchee,4
+33477,FL,Jupiter,4
+33478,FL,Jupiter,4
+33480,FL,Palm Beach,4
+33483,FL,Delray Beach,4
+33484,FL,Delray Beach,4
+33486,FL,Boca Raton,4
+33487,FL,Boca Raton,4
+33496,FL,Boca Raton,4
+33498,FL,Boca Raton,4

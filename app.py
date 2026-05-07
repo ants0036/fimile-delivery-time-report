@@ -21,7 +21,7 @@ def fetch_data(start_date, end_date):
     # instead of cur = conn.cursor() because with automatically closes
     with conn.cursor() as cur:
       sql = """
-          SELECT DISTINCT tracking_number, created_at, latest_router_description, latest_router_time
+          SELECT DISTINCT tracking_number, created_at, latest_router_description, latest_router_time, sender_zip_code, receiver_zip_code
           FROM transit_third_party_caches
           WHERE created_at >= %s AND created_at < %s
       """
@@ -59,7 +59,7 @@ def calculate_pickup_time(row):
     return datetime(created_time.year, created_time.month, created_time.day, 18) + timedelta(days = between_monday)
   
 # returns a timedelta of the time it took to deliver a package.
-def calculate_pickup_time(row):
+def calculate_warehouse_time(row):
   delivered_timestamp = pd.to_datetime(row["latest_router_time"])
   pickup_time = delivered_timestamp - row["pickup time"] 
   pickup_hours = pickup_time.total_seconds() / 3600
@@ -74,6 +74,57 @@ def calculate_created_to_delivery_time(row):
   created_to_delivery = delivered_timestamp - created_time
   return created_to_delivery.total_seconds() / 3600  
 
+def find_sender_start(row):
+  if row["sender_zip_code"] == "":
+    return "N/A"
+  if row["sender_zip_code"] in ["91752", "90670", "92324", "92337", "91761", "91789", "92701", "91768"]:
+    return "CA"
+  elif row["sender_zip_code"] in ["08817", "08067", "08859", "08810", "08902", "07001", "07064", "07036", "08854"]:
+    return "NJ"
+  elif row["sender_zip_code"] == "31308":
+    return "SAV"
+  elif row["sender_zip_code"] in ["77423", "77060", "77449"]:
+    return "TX"
+  elif row["sender_zip_code"] in ["30336", "30517", "30297", "30519"]:
+    return "ATL"
+  elif row["sender_zip_code"] in ["60517"]:
+    return "IL"
+  else:
+    return "Other"
+  
+def load_zones():
+  st.session_state.ca_zones = pd.read_csv('data/ca zones.csv')
+  st.session_state.nj_zones = pd.read_csv('data/nj zones.csv')
+  st.session_state.sav_zones = pd.read_csv('data/sav zones.csv')
+  st.session_state.tx_zones = pd.read_csv('data/tx zones.csv')
+  st.session_state.atl_zones = pd.read_csv('data/atl zones.csv')
+  st.session_state.il_zones = pd.read_csv('data/il zones.csv')
+
+# only called after load_zones() is called 
+# optimize later
+def find_zone(row):
+  start = row["starting area"]
+  receive_zip = int(row["receiver_zip_code"][:5])
+  if start == "CA":
+    match = st.session_state.ca_zones[st.session_state.ca_zones['zipcode'] == receive_zip]
+  elif start == "NJ":
+    match = st.session_state.nj_zones[st.session_state.nj_zones['zipcode'] == receive_zip]
+  elif start == "TX":
+    match = st.session_state.tx_zones[st.session_state.tx_zones['zipcode'] == receive_zip]
+  elif start == "SAV":
+    match = st.session_state.sav_zones[st.session_state.sav_zones['zipcode'] == receive_zip]
+  elif start == "IL":
+    match = st.session_state.il_zones[st.session_state.sav_zones['zipcode'] == receive_zip]
+  elif start == "ATL":
+    match = st.session_state.atl_zones[st.session_state.sav_zones['zipcode'] == receive_zip]
+  else:
+    return "N/A"
+  
+  if match.empty:
+    return 0 
+  else: 
+    return match.iloc[0]["zone"] 
+
 # start and end date picker
 start_date = st.date_input("pick start date")
 end_date = st.date_input("pick end date")
@@ -86,9 +137,14 @@ if st.button("fetch from db"):
 if "data" in st.session_state:
   st.write(st.session_state.data)
 
-if st.button("calculate pickup times & get rid of undelivered"):
+if st.button("calculate times & zones"):
   st.session_state.data = st.session_state.data[st.session_state.data['latest_router_description'] == 'Delivered.']
+
   st.session_state.data["pickup time"] = st.session_state.data.apply(calculate_pickup_time, axis = 1)
-  st.session_state.data["warehouse pickup time"] = st.session_state.data.apply(calculate_pickup_time, axis = 1)
+  st.session_state.data["warehouse pickup time"] = st.session_state.data.apply(calculate_warehouse_time, axis = 1)
   st.session_state.data["created to delivery time"] = st.session_state.data.apply(calculate_created_to_delivery_time, axis = 1)
+  st.session_state.data["starting area"] = st.session_state.data.apply(find_sender_start, axis = 1)
+  load_zones()
+  st.session_state.data["zone"] = st.session_state.data.apply(find_zone, axis = 1)
+
   st.write(st.session_state.data)
