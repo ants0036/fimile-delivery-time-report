@@ -78,11 +78,11 @@ def calculate_created_to_delivery_time(row):
 def find_sender_start(row):
   if row["sender_zip_code"] == "":
     return "N/A"
-  if row["sender_zip_code"] in ["91752", "90670", "92324", "92337", "91761", "91789", "92701", "91768", "91766"]:
+  if row["sender_zip_code"] in ["91752", "90670", "92324", "92337", "91761", "91789", "92701", "91768", "91766", "92376"]:
     return "CA"
   elif row["sender_zip_code"] in ["08817", "08067", "08859", "08810", "08902", "07001", "07064", "07036", "08854"]:
     return "NJ"
-  elif row["sender_zip_code"] in ["31308", "29927"]:
+  elif row["sender_zip_code"] in ["31308", "29927", "31302"]:
     return "SAV"
   elif row["sender_zip_code"] in ["77423", "77060", "77449"]:
     return "TX"
@@ -149,15 +149,15 @@ def calculate_delivered_stats(raw_data):
   # st.write(delivered_data)
 
   # aggregated stats
-  grouped_areas = delivered_data.groupby(['starting area', 'receive state']).agg({'pickup time to delivery time': 'mean', "created to delivery time": 'mean'})
-  grouped_zones = delivered_data.groupby(['zone']).agg({'pickup time to delivery time': 'mean', "created to delivery time": 'mean'})
-  st.write("Aggregations by area")
-  st.write(grouped_areas)
-  st.write("Aggregations by zone")
-  st.write(grouped_zones)
+  st.session_state.areas_times = delivered_data.groupby(['starting area', 'receive state']).agg({'pickup time to delivery time': 'mean', "created to delivery time": 'mean'})
+  st.session_state.areas_times["pickup time to delivery time"] = round(st.session_state.areas_times["pickup time to delivery time"], 2).astype(str) + " days"
+  st.session_state.areas_times["created to delivery time"] = round(st.session_state.areas_times["created to delivery time"], 2).astype(str) + " days"
+  st.session_state.zones_times = delivered_data.groupby(['zone']).agg({'pickup time to delivery time': 'mean', "created to delivery time": 'mean'})
+  st.session_state.zones_times["pickup time to delivery time"] = round(st.session_state.zones_times["pickup time to delivery time"], 2).astype(str) + " days"
+  st.session_state.zones_times["created to delivery time"] = round(st.session_state.zones_times["created to delivery time"], 2).astype(str) + " days"
 
 def calculate_undelivered_percentage(row):
-  return str((1 - row["delivered packages"] / row["all packages"]) * 100 ) + "%"
+  return str(round((1 - row["delivered packages"] / row["all packages"]) * 100 , 2)) + "%"
 
 def build_area_zone_recieve(data):
   data["starting area"] = data.apply(find_sender_start, axis = 1)
@@ -192,18 +192,16 @@ def calculate_undelivered_stats(raw_data):
   zones_only_delivered, areas_only_delivered = group_by_zone_and_area(only_delivered, "delivered packages")
 
   # aggregate into one table and calculate percentages 
-  undelivered_stats_zones = build_undelivered_table(zones_without_cancelled, zones_only_delivered)
-  undelivered_stats_areas = build_undelivered_table(areas_without_cancelled, areas_only_delivered)
-  st.write(undelivered_stats_zones)
-  st.write(undelivered_stats_areas)
+  st.session_state.zones_undelivered = build_undelivered_table(zones_without_cancelled, zones_only_delivered)
+  st.session_state.areas_undelivered = build_undelivered_table(areas_without_cancelled, areas_only_delivered)
 
 def within_target(row, zone_targets):
   target = zone_targets[row["zone"]]
-  return float(target) > float(row["created to delivery time"])
+  return float(target) > float(row["pickup time to delivery time"])
 
 # optimize these theyre copies of the other one
 def calculate_target_percentage(row):
-  return str(row["within target"] / row ["all packages"] * 100) + "%"
+  return str(round(row["within target"] / row ["all packages"] * 100, 2)) + "%"
 
 # optimize these theyre copies of the other one
 def build_target_table(all, target):
@@ -224,16 +222,26 @@ if "raw_data" in st.session_state:
 
 if st.button("calculate time stats"):
   calculate_delivered_stats(st.session_state.raw_data)
+if "areas_times" in st.session_state:
+  st.write("Aggregations by area")
+  st.write(st.session_state.areas_times)
+if "zones_times" in st.session_state:
+  st.write("Aggregations by zone")
+  st.write(st.session_state.zones_times)
 
 if st.button("calculate undelivered stats"):
   calculate_undelivered_stats(st.session_state.raw_data)
+if "zones_undelivered" in st.session_state:
+  st.write(st.session_state.zones_undelivered)
+if "areas_undelivered" in st.session_state:
+  st.write(st.session_state.areas_undelivered)
 
 st.divider()
-zone2_target = st.text_input("Zone 2 Target Time", "1")
-zone3_target = st.text_input("Zone 3 Target Time", "2")
-zone4_target = st.text_input("Zone 4 Target Time", "3")
-zone6_target = st.text_input("Zone 6 Target Time", "4")
-zone8_target = st.text_input("Zone 8 Target Time", "5")
+zone2_target = st.text_input("Zone 2 Target Time", "2")
+zone3_target = st.text_input("Zone 3 Target Time", "3")
+zone4_target = st.text_input("Zone 4 Target Time", "5")
+zone6_target = st.text_input("Zone 6 Target Time", "7")
+zone8_target = st.text_input("Zone 8 Target Time", "9")
 
 zone_targets = {0: 0, 2: zone2_target, 3: zone3_target, 4: zone4_target, 6: zone6_target, 8: zone8_target}
 
@@ -247,17 +255,24 @@ if st.button("calculate target time stats"):
   only_delivered = st.session_state.raw_data[st.session_state.raw_data
   ['latest_router_description'] == 'Delivered.']
   build_area_zone_recieve(only_delivered)
-  only_delivered["created to delivery time"] = only_delivered.apply(calculate_created_to_delivery_time, axis = 1)
+  only_delivered["pickup time"] = only_delivered.apply(calculate_pickup_time, axis = 1)
+  only_delivered["pickup time to delivery time"] = only_delivered.apply(calculate_warehouse_time, axis = 1)
   only_delivered["within target"] = only_delivered.apply(lambda row: within_target(row, zone_targets), axis = 1)
+  st.write(only_delivered)
 
-  within_target = only_delivered[only_delivered["within target"]]
+  # boolean mask filtering
+  in_target = only_delivered[only_delivered["within target"]]
 
   # aggregate into zones and areas for calculation 
   zones_without_cancelled, areas_without_cancelled = group_by_zone_and_area(without_cancelled, "all packages")
-  zones_within_target, areas_within_target = group_by_zone_and_area(within_target, "within target")
+  zones_within_target, areas_within_target = group_by_zone_and_area(in_target, "within target")
 
-  target_zones = build_target_table (zones_without_cancelled, zones_within_target)
-  target_areas = build_target_table (areas_without_cancelled, areas_within_target)
-  st.write(target_zones, target_areas)
+  st.session_state.target_zones = build_target_table (zones_without_cancelled, zones_within_target)
+  st.session_state.target_areas = build_target_table (areas_without_cancelled, areas_within_target)
+
+  if "target_zones" in st.session_state:
+    st.write(st.session_state.target_zones)
+  if "target_areas" in st.session_state:
+    st.write(st.session_state.target_areas)
 
   
