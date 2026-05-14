@@ -75,10 +75,11 @@ def calculate_created_to_delivery_time(row):
   hours = created_to_delivery.total_seconds() / 3600  
   return hours / 24
 
+# this can be done into a table merge... later
 def find_sender_start(row):
   if row["sender_zip_code"] == "":
     return "N/A"
-  if row["sender_zip_code"] in ["91752", "90670", "92324", "92337", "91761", "91789", "92701", "91768", "91766", "92376"]:
+  if row["sender_zip_code"] in ["91752", "90670", "92324", "92337", "91761", "91789", "92701", "91768", "91766", "92376", "92316", "92346"]:
     return "CA"
   elif row["sender_zip_code"] in ["08817", "08067", "08859", "08810", "08902", "07001", "07064", "07036", "08854"]:
     return "NJ"
@@ -136,6 +137,13 @@ def find_zone(row):
     else: 
       return pd.Series([match.iloc[0]["zone"], match.iloc[0]["state"]])
 
+# given a table that has already been grouped by zone or area, calculate the mean times for each group 
+def create_delivery_time_table(grouped_table):
+  grouped_table = grouped_table.agg({'pickup time to delivery time': 'mean', "created to delivery time": 'mean'})
+  grouped_table["pickup time to delivery time"] = round(grouped_table["pickup time to delivery time"], 2).astype(str) + " days"
+  grouped_table["created to delivery time"] = round(grouped_table["created to delivery time"], 2).astype(str) + " days"
+  return grouped_table
+
 # takes in dataframe of raw data and calculates various stats for only delivered packages
 def calculate_delivered_stats(raw_data):
   delivered_data = raw_data[raw_data['latest_router_description'] == 'Delivered.']
@@ -146,15 +154,13 @@ def calculate_delivered_stats(raw_data):
   delivered_data["starting area"] = delivered_data.apply(find_sender_start, axis = 1)
   load_zones()
   delivered_data[["zone", "receive state"]] = delivered_data.apply(find_zone, axis = 1)
-  # st.write(delivered_data)
 
   # aggregated stats
-  st.session_state.areas_times = delivered_data.groupby(['starting area', 'receive state']).agg({'pickup time to delivery time': 'mean', "created to delivery time": 'mean'})
-  st.session_state.areas_times["pickup time to delivery time"] = round(st.session_state.areas_times["pickup time to delivery time"], 2).astype(str) + " days"
-  st.session_state.areas_times["created to delivery time"] = round(st.session_state.areas_times["created to delivery time"], 2).astype(str) + " days"
-  st.session_state.zones_times = delivered_data.groupby(['zone']).agg({'pickup time to delivery time': 'mean', "created to delivery time": 'mean'})
-  st.session_state.zones_times["pickup time to delivery time"] = round(st.session_state.zones_times["pickup time to delivery time"], 2).astype(str) + " days"
-  st.session_state.zones_times["created to delivery time"] = round(st.session_state.zones_times["created to delivery time"], 2).astype(str) + " days"
+  st.session_state.areas_times = delivered_data.groupby(['starting area', 'receive state'])
+  st.session_state.areas_times = create_delivery_time_table(st.session_state.areas_times)
+
+  st.session_state.zones_times = delivered_data.groupby(['zone'])
+  st.session_state.zones_times = create_delivery_time_table(st.session_state.zones_times)
 
 def calculate_undelivered_percentage(row):
   return str(round((1 - row["delivered packages"] / row["all packages"]) * 100 , 2)) + "%"
@@ -164,6 +170,7 @@ def build_area_zone_recieve(data):
   data[["zone", "receive state"]] = data.apply(find_zone, axis = 1)
   return data
 
+# i forgot how this does this and why
 def group_by_zone_and_area(data, col_name):
   by_zone = data.groupby(['zone']).agg(**{col_name: ("tracking_number",'count')})
   by_area = data.groupby(['starting area', 'receive state']).agg(**{col_name: ("tracking_number",'count')})
@@ -246,6 +253,7 @@ zone8_target = st.text_input("Zone 8 Target Time", "9")
 zone_targets = {0: 0, 2: zone2_target, 3: zone3_target, 4: zone4_target, 6: zone6_target, 8: zone8_target}
 
 if st.button("calculate target time stats"):
+  load_zones()
   # all packages without cancelled packages
   without_cancelled = st.session_state.raw_data[st.session_state.raw_data['latest_router_description'] != 'Shipment cancelled.']
   x = build_area_zone_recieve(without_cancelled)
