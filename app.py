@@ -198,6 +198,8 @@ def calculate_undelivered_stats(raw_data):
   build_area_zone_recieve(only_delivered)
   zones_only_delivered, areas_only_delivered = group_by_zone_and_area(only_delivered, "delivered packages")
 
+  st.write(without_cancelled)
+
   # aggregate into one table and calculate percentages 
   st.session_state.zones_undelivered = build_undelivered_table(zones_without_cancelled, zones_only_delivered)
   st.session_state.areas_undelivered = build_undelivered_table(areas_without_cancelled, areas_only_delivered)
